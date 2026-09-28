@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #F8D7E5;
+  --color-blush-50: #FFF5F9;
+  --color-blush-100: #FCE6F0;
+  --color-blush-200: #F8D7E5;
+  --color-roseInk: #7A3E55;
+  --color-rose-ink: #7A3E55;
+  --color-cream: #FFF7EF;
+  --color-cream-50: #FFFCF7;
+  --color-lavender: #E9E2FF;
+  --color-lavender-50: #F7F4FF;
+  --color-mint: #DFF7EF;
+  --color-mint-50: #F2FCF8;
+
+  --font-display: "Fredoka", cursive, sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}

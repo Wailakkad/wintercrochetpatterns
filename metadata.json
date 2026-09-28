@@ -1,0 +1,6 @@
+﻿{
+  "name": "Winter Crochet Patterns",
+  "description": "Cozy free printable PDF crochet patterns and beginner guides for a baby beanie, granny square cardigan, earwarmer, and fingerless gloves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
