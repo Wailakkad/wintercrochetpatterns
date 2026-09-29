@@ -29,3 +29,25 @@
     letter-spacing: -0.01em;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Ad centering override
+   The ad network injects float / auto-margin / right alignment rules.
+   Every ad wrapper carries .native-ad-center, which forces a full-width,
+   horizontally centered block on every breakpoint with no overflow.
+   -------------------------------------------------------------------------- */
+.native-ad-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.native-ad-center * {
+  float: none !important;
+}
+
+.native-ad-center > * {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

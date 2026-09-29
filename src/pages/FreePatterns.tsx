@@ -175,22 +175,27 @@ export const FreePatterns: React.FC = () => {
             {filteredPatterns.map((pattern) => (
               <PatternCard key={pattern.slug} pattern={pattern} />
             ))}
+
+            {/* Native ad in the middle of the listing: a full-width, centered row
+                sitting directly under the pattern cards (col-span-full keeps it
+                from being squeezed into a grid cell at the end of a row). */}
+            <AdSlot id="patterns-catalog-bottom" format="horizontal" className="col-span-full w-full" />
           </div>
         ) : (
-          <div className="rounded-2xl border border-rose-100 bg-white p-12 text-center">
-            <p className="text-sm font-medium text-slate-700">No patterns match your filter criteria.</p>
-            <p className="mt-1 text-xs text-slate-500">Try clearing your filters or search query.</p>
-            <button
-              onClick={resetFilters}
-              className="mt-4 rounded-xl bg-[#7A3E55] px-4 py-2 text-xs font-semibold text-white hover:bg-[#582639]"
-            >
-              Show All Patterns
-            </button>
-          </div>
+          <>
+            <div className="rounded-2xl border border-rose-100 bg-white p-12 text-center">
+              <p className="text-sm font-medium text-slate-700">No patterns match your filter criteria.</p>
+              <p className="mt-1 text-xs text-slate-500">Try clearing your filters or search query.</p>
+              <button
+                onClick={resetFilters}
+                className="mt-4 rounded-xl bg-[#7A3E55] px-4 py-2 text-xs font-semibold text-white hover:bg-[#582639]"
+              >
+                Show All Patterns
+              </button>
+            </div>
+            <AdSlot id="patterns-catalog-bottom" format="horizontal" className="col-span-full w-full" />
+          </>
         )}
-
-        {/* Ad Slot Below Grid */}
-        <AdSlot id="patterns-catalog-bottom" format="horizontal" />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { AdSlot } from '../components/AdSlot';
 import { SheepIcon, YarnBallIcon } from '../components/icons';
 import { Home, ArrowLeft } from 'lucide-react';
 
@@ -42,6 +43,8 @@ export const NotFound: React.FC = () => {
             <span>Browse Free Patterns</span>
           </Link>
         </div>
+
+        <AdSlot id="notfound-bottom" format="horizontal" />
       </div>
     </div>
   );
