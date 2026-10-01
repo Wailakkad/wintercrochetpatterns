@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Measurement points for fingerless gloves: wrist, palm, and length">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8D7E5"/>
+      <stop offset="1" stop-color="#E9E2FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="160" cy="840" r="105" fill="#FFF7EF" opacity="0.8"/>
+  <circle cx="1450" cy="160" r="95" fill="#DFF7EF" opacity="0.7"/>
+
+  <rect x="140" y="130" width="1320" height="740" rx="48" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="4"/>
+
+  <!-- glove outline -->
+  <g transform="translate(660 510)" fill="#FFF5F9" stroke="#7A3E55" stroke-width="10" stroke-linejoin="round">
+    <path d="M-140 -40
+             q 0 -190 90 -190
+             q 40 0 55 45
+             q 12 -60 60 -60
+             q 46 0 54 70
+             q 14 -50 58 -50
+             q 44 0 48 66
+             q 12 -34 46 -34
+             q 42 0 44 78
+             v 120
+             q 0 150 -110 178
+             q -60 16 -130 16
+             q -165 0 -165 -175
+             z"/>
+    <path d="M-140 110 q 60 40 200 34" fill="none" stroke-dasharray="18 14"/>
+  </g>
+
+  <!-- measure lines -->
+  <g stroke="#7A3E55" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M470 400 L 770 400"/>
+    <path d="M470 384 L 470 416"/>
+    <path d="M770 384 L 770 416"/>
+    <path d="M1050 330 L 1050 730"/>
+    <path d="M1034 330 L 1066 330"/>
+    <path d="M1034 730 L 1066 730"/>
+    <path d="M470 745 L 690 745"/>
+    <path d="M470 729 L 470 761"/>
+    <path d="M690 729 L 690 761"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#7A3E55">
+    <rect x="500" y="354" width="240" height="52" rx="14" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="620" y="388" text-anchor="middle">Palm</text>
+
+    <rect x="965" y="510" width="180" height="52" rx="14" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="1055" y="544" text-anchor="middle">Length</text>
+
+    <rect x="485" y="700" width="200" height="52" rx="14" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="585" y="734" text-anchor="middle">Wrist</text>
+  </g>
+
+  <!-- tiny yarn icon -->
+  <g transform="translate(1250 750)">
+    <circle r="46" fill="#FFF5F9" stroke="#7A3E55" stroke-width="8"/>
+    <g fill="none" stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+      <path d="M-38 -22 C -13 -38, 13 -10, 38 -25"/>
+      <path d="M-43 3 C -14 -10, 14 11, 43 -2"/>
+      <path d="M-38 28 C -12 14, 13 37, 38 24"/>
+    </g>
+  </g>
+</svg>

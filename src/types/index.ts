@@ -29,10 +29,24 @@ export interface Pattern {
   finishedDimensions: string;
 }
 
+/** Simple data table rendered inside a section (e.g. sizing guidance). */
+export interface BlogPostTable {
+  caption?: string;
+  headers: string[];
+  rows: string[][];
+}
+
 export interface BlogPostSection {
   id: string;
   title: string;
+  /**
+   * Plain text with optional line breaks. Links are written as
+   * `[anchor text](/relative-or-absolute-url)` and rendered as Router
+   * `<Link>` (internal) or `<a target="_blank" rel="noopener noreferrer">` (external).
+   */
   content: string;
+  /** Optional styled table rendered directly after the section content. */
+  table?: BlogPostTable;
   steps?: {
     step: number;
     title: string;
@@ -41,23 +55,68 @@ export interface BlogPostSection {
   }[];
 }
 
+/** In-article promotional callout (rendered as a styled box). */
+export interface BlogPostCta {
+  /**
+   * Where to insert the CTA:
+   * - 'quick-summary' → right after the Quick Summary box
+   * - a section id    → right after that section
+   * - 'end'           → after the FAQ block (end of article)
+   */
+  after: string;
+  headline: string;
+  body: string;
+  buttonLabel: string;
+  /** Absolute URL (external links open in a new tab with rel="noopener noreferrer"). */
+  url: string;
+}
+
+/** Branded tip/callout box (e.g. "Fit Tip", "Thumb Tip"). */
+export interface BlogPostCallout {
+  /** 'quick-summary', or a section id. */
+  after: string;
+  title: string;
+  body: string;
+  /** Brand tone: blush/rose (default) or mint. */
+  tone?: 'rose' | 'mint';
+}
+
+/** In-article image inserted after a given section. */
+export interface BlogPostImage {
+  afterSectionId: string;
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
   /** SEO meta description (falls back to `excerpt` when omitted). */
   metaDescription?: string;
+  /** Optional explicit canonical URL (falls back to the current page URL). */
+  canonical?: string;
   date: string;
   readingTime: string;
   coverImage: string;
-  patternSlug: string;
+  /**
+   * Matching free pattern slug. Omit for posts that intentionally have no
+   * free-PDF download card / matching-pattern sidebar (e.g. paid-product funnels).
+   */
+  patternSlug?: string;
   category: Category;
   author: {
     name: string;
     role: string;
   };
+  /** Short scannable bullet box rendered near the top of the article. */
+  quickSummary?: { title: string; bullets: string[] };
   tableOfContents: { id: string; label: string }[];
   sections: BlogPostSection[];
+  inArticleImages?: BlogPostImage[];
+  ctas?: BlogPostCta[];
+  callouts?: BlogPostCallout[];
   finishingTips: string[];
   faqs?: { q: string; a: string }[];
 }

@@ -19,7 +19,59 @@ import {
   HelpCircle
 } from 'lucide-react';
 import { YarnBallIcon, SheepIcon } from '../components/icons';
+import { BlogCta } from '../components/BlogCta';
+import { TipCallout } from '../components/TipCallout';
 import { getDownloadUrl } from '../utils/downloads';
+
+/** Matches inline links written as [anchor text](url) inside section content. */
+const RICH_LINK_PATTERN = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+
+/**
+ * Renders section content as plain text (line breaks preserved) while turning
+ * `[label](url)` into a Router <Link> for internal URLs and a safe external
+ * <a target="_blank" rel="noopener noreferrer"> for absolute URLs.
+ */
+function renderRichText(text: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  const pattern = new RegExp(RICH_LINK_PATTERN.source, 'g');
+  let lastIndex = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    const label = match[1];
+    const url = match[2];
+    const className =
+      'font-medium text-[#7A3E55] underline decoration-rose-200 underline-offset-2 hover:decoration-[#7A3E55] transition-colors';
+
+    nodes.push(
+      url.startsWith('/') ? (
+        <Link key={`link-${key++}`} to={url} className={className}>
+          {label}
+        </Link>
+      ) : (
+        <a
+          key={`link-${key++}`}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={className}
+        >
+          {label}
+        </a>
+      )
+    );
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+  return nodes;
+}
 
 export const BlogPostDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -38,6 +90,7 @@ export const BlogPostDetail: React.FC = () => {
       <SEO
         title={`${post.title} — Crochet Tutorial`}
         description={post.metaDescription ?? post.excerpt}
+        canonical={post.canonical}
         ogType="article"
         ogImage={post.coverImage}
         publishedTime={post.date}
@@ -102,6 +155,44 @@ export const BlogPostDetail: React.FC = () => {
           />
         </div>
 
+        {/* Quick Summary Box */}
+        {post.quickSummary && (
+          <section
+            aria-label={post.quickSummary.title}
+            className="max-w-4xl mx-auto mb-10 rounded-2xl border border-rose-200 bg-[#FFF7EF]/70 p-6 sm:p-7"
+          >
+            <h2 className="font-display text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-[#7A3E55]" />
+              {post.quickSummary.title}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm text-slate-700 leading-relaxed">
+              {post.quickSummary.bullets.map((bullet, idx) => (
+                <li key={idx} className="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <span>{renderRichText(bullet)}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {/* CTAs / callouts placed right after the Quick Summary box */}
+        {(post.ctas?.some((c) => c.after === 'quick-summary') ||
+          post.callouts?.some((c) => c.after === 'quick-summary')) && (
+          <div className="max-w-4xl mx-auto mb-10 space-y-4">
+            {post.callouts
+              ?.filter((c) => c.after === 'quick-summary')
+              .map((c) => (
+                <TipCallout key={c.title} title={c.title} body={c.body} tone={c.tone} />
+              ))}
+            {post.ctas
+              ?.filter((c) => c.after === 'quick-summary')
+              .map((c) => (
+                <BlogCta key={c.headline} cta={c} />
+              ))}
+          </div>
+        )}
+
         {/* Article Layout with Sidebar for Desktop Ad & Quick Links */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
           {/* Main Article Body (8 cols) */}
@@ -139,8 +230,47 @@ export const BlogPostDetail: React.FC = () => {
                 </h2>
 
                 <p className="text-sm sm:text-base text-slate-700 whitespace-pre-line leading-relaxed">
-                  {section.content}
+                  {renderRichText(section.content)}
                 </p>
+
+                {/* Optional data table (e.g. sizing guidance) */}
+                {section.table && (
+                  <div className="overflow-x-auto rounded-2xl border border-rose-100 bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm">
+                      <thead>
+                        <tr className="border-b border-rose-100 bg-[#FFF7EF]/70">
+                          {section.table.headers.map((header) => (
+                            <th
+                              key={header}
+                              className="px-4 py-3 font-display text-[11px] font-bold uppercase tracking-wider text-[#7A3E55] whitespace-nowrap"
+                            >
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.table.rows.map((row, rowIdx) => (
+                          <tr key={rowIdx} className={rowIdx % 2 === 1 ? 'bg-[#FFFDFB]' : 'bg-white'}>
+                            {row.map((cell, cellIdx) => (
+                              <td
+                                key={cellIdx}
+                                className="border-t border-rose-50 px-4 py-3 text-slate-700"
+                              >
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                    {section.table.caption && (
+                      <p className="border-t border-rose-100 px-4 py-3 text-[11px] text-slate-500">
+                        {section.table.caption}
+                      </p>
+                    )}
+                  </div>
+                )}
 
                 {/* If section has detailed steps */}
                 {section.steps && (
@@ -171,6 +301,42 @@ export const BlogPostDetail: React.FC = () => {
                     ))}
                   </div>
                 )}
+
+                {/* In-article images for this section */}
+                {post.inArticleImages
+                  ?.filter((img) => img.afterSectionId === section.id)
+                  .map((img, imgIdx) => (
+                    <figure
+                      key={`${img.src}-${imgIdx}`}
+                      className="overflow-hidden rounded-2xl border border-rose-100 bg-[#FFF7EF]"
+                    >
+                      <img
+                        src={img.src}
+                        alt={img.alt}
+                        loading="lazy"
+                        className="w-full h-auto"
+                      />
+                      {img.caption && (
+                        <figcaption className="px-4 py-3 text-xs text-slate-500 text-center">
+                          {img.caption}
+                        </figcaption>
+                      )}
+                    </figure>
+                  ))}
+
+                {/* Branded tip callouts for this section */}
+                {post.callouts
+                  ?.filter((c) => c.after === section.id)
+                  .map((c) => (
+                    <TipCallout key={c.title} title={c.title} body={c.body} tone={c.tone} />
+                  ))}
+
+                {/* Promotional CTA blocks (placed after their configured section) */}
+                {post.ctas
+                  ?.filter((cta) => cta.after === section.id)
+                  .map((cta) => (
+                    <BlogCta key={cta.headline} cta={cta} />
+                  ))}
 
                 {/* Inject ad between section 2 and 3 */}
                 {sIdx === 1 && (
@@ -218,6 +384,13 @@ export const BlogPostDetail: React.FC = () => {
                 </div>
               </section>
             )}
+
+            {/* End-of-article CTAs (after="end") */}
+            {post.ctas
+              ?.filter((cta) => cta.after === 'end')
+              .map((cta) => (
+                <BlogCta key={cta.headline} cta={cta} />
+              ))}
 
             {/* End of article Download PDF Card */}
             {matchingPattern && (

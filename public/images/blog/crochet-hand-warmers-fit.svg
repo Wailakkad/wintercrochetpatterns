@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Fit and measurement placeholder for crochet hand warmers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9E2FF"/>
+      <stop offset="1" stop-color="#FFF7EF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="180" cy="820" r="120" fill="#F8D7E5" opacity="0.7"/>
+  <circle cx="1440" cy="170" r="100" fill="#DFF7EF" opacity="0.7"/>
+
+  <rect x="140" y="120" width="1320" height="760" rx="48" fill="#FFFFFF" stroke="#E9E2FF" stroke-width="4"/>
+
+  <!-- stylized hand / mitt outline -->
+  <g transform="translate(620 500)" fill="#FFF5F9" stroke="#7A3E55" stroke-width="10" stroke-linejoin="round">
+    <path d="M-140 -40
+             q 0 -190 90 -190
+             q 40 0 55 45
+             q 12 -60 60 -60
+             q 46 0 54 70
+             q 14 -50 58 -50
+             q 44 0 48 66
+             q 12 -34 46 -34
+             q 42 0 44 78
+             v 120
+             q 0 150 -110 178
+             q -60 16 -130 16
+             q -165 0 -165 -175
+             z"/>
+  </g>
+
+  <!-- thumb opening marker -->
+  <circle cx="880" cy="560" r="34" fill="#FFFFFF" stroke="#7A3E55" stroke-width="8" stroke-dasharray="14 12"/>
+
+  <!-- measurement callouts -->
+  <g stroke="#7A3E55" stroke-width="6" fill="none" stroke-linecap="round">
+    <!-- palm width -->
+    <path d="M470 400 L 770 400"/>
+    <path d="M470 384 L 470 416"/>
+    <path d="M770 384 L 770 416"/>
+    <!-- length -->
+    <path d="M1060 320 L 1060 740"/>
+    <path d="M1044 320 L 1076 320"/>
+    <path d="M1044 740 L 1076 740"/>
+    <!-- wrist -->
+    <path d="M470 740 L 700 740"/>
+    <path d="M470 724 L 470 756"/>
+    <path d="M700 724 L 700 756"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#7A3E55">
+    <rect x="520" y="352" width="200" height="46" rx="12" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="620" y="384" text-anchor="middle">Palm width</text>
+
+    <rect x="978" y="510" width="170" height="46" rx="12" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="1063" y="542" text-anchor="middle">Length</text>
+
+    <rect x="482" y="694" width="200" height="46" rx="12" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="3"/>
+    <text x="582" y="726" text-anchor="middle">Wrist</text>
+  </g>
+
+  <text x="800" y="812" text-anchor="middle" font-family="Fredoka, 'Segoe UI', sans-serif" font-size="44" font-weight="700" fill="#7A3E55">Measure First, Crochet Second</text>
+  <text x="800" y="860" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" fill="#7A3E55" opacity="0.55">Fit / measurement placeholder</text>
+</svg>

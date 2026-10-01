@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Easy crochet fingerless gloves free pattern hero placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8D7E5"/>
+      <stop offset="1" stop-color="#FFF7EF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="190" cy="160" r="125" fill="#E9E2FF" opacity="0.65"/>
+  <circle cx="1440" cy="760" r="165" fill="#DFF7EF" opacity="0.65"/>
+  <circle cx="1400" cy="150" r="60" fill="#FFFDFB" opacity="0.8"/>
+
+  <rect x="380" y="220" width="840" height="460" rx="40" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="4"/>
+
+  <!-- yarn ball icon -->
+  <g transform="translate(800 350)">
+    <circle r="60" fill="#FFF5F9" stroke="#7A3E55" stroke-width="10"/>
+    <g fill="none" stroke="#7A3E55" stroke-width="8" stroke-linecap="round">
+      <path d="M-50 -29 C -17 -50, 17 -13, 50 -33"/>
+      <path d="M-56 4 C -19 -13, 19 15, 56 -2"/>
+      <path d="M-50 37 C -15 19, 17 48, 50 31"/>
+      <path d="M60 8 C 108 28, 138 66, 176 62" stroke-dasharray="14 12"/>
+    </g>
+  </g>
+
+  <text x="800" y="490" text-anchor="middle" font-family="Fredoka, 'Segoe UI', sans-serif" font-size="54" font-weight="700" fill="#7A3E55">Crochet Fingerless Gloves</text>
+  <text x="800" y="552" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="28" fill="#7A3E55" opacity="0.75">Free Pattern · Easy · US Terms</text>
+  <text x="800" y="612" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#7A3E55" opacity="0.5">Hero image placeholder</text>
+</svg>
