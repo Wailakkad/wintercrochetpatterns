@@ -18,7 +18,7 @@ const PAYHIP_JACKET_URL =
 
 /** Payhip product link for the top-down pullover pattern funnel, with UTM tracking. */
 const PAYHIP_TOPDOWN_URL =
-  'https://payhip.com/b/ZtGeJ?utm_source=blog&utm_medium=cta&utm_campaign=topdown_buying';
+  'https://payhip.com/b/ydiAF?utm_source=blog&utm_medium=cta&utm_campaign=topdown_buying';
 
 export const BLOG_POSTS: BlogPost[] = [
   {
