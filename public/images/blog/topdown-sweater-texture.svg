@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Close-up illustration of the simple stitch texture used in the top down crochet pullover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#E9E2FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="118" cy="118" r="72" fill="#F8D7E5" opacity="0.7"/>
+  <circle cx="1085" cy="572" r="92" fill="#DFF7EF" opacity="0.6"/>
+
+  <rect x="100" y="90" width="700" height="495" rx="32" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="4"/>
+
+  <!-- stitch texture rows: V shapes -->
+  <g stroke="#7A3E55" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity="0.95">
+      <path d="M150 175 L172 205 L194 175"/><path d="M214 175 L236 205 L258 175"/><path d="M278 175 L300 205 L322 175"/>
+      <path d="M342 175 L364 205 L386 175"/><path d="M402 175 L424 205 L446 175"/><path d="M462 175 L484 205 L506 175"/>
+      <path d="M522 175 L544 205 L566 175"/><path d="M582 175 L604 205 L626 175"/><path d="M642 175 L664 205 L686 175"/>
+      <path d="M702 175 L724 205 L746 175"/>
+    </g>
+    <g opacity="0.8">
+      <path d="M150 255 L172 285 L194 255"/><path d="M214 255 L236 285 L258 255"/><path d="M278 255 L300 285 L322 255"/>
+      <path d="M342 255 L364 285 L386 255"/><path d="M402 255 L424 285 L446 255"/><path d="M462 255 L484 285 L506 255"/>
+      <path d="M522 255 L544 285 L566 255"/><path d="M582 255 L604 285 L626 255"/><path d="M642 255 L664 285 L686 255"/>
+      <path d="M702 255 L724 285 L746 255"/>
+    </g>
+    <g opacity="0.65">
+      <path d="M150 335 L172 365 L194 335"/><path d="M214 335 L236 365 L258 335"/><path d="M278 335 L300 365 L322 335"/>
+      <path d="M342 335 L364 365 L386 335"/><path d="M402 335 L424 365 L446 335"/><path d="M462 335 L484 365 L506 335"/>
+      <path d="M522 335 L544 365 L566 335"/><path d="M582 335 L604 365 L626 335"/><path d="M642 335 L664 365 L686 335"/>
+      <path d="M702 335 L724 365 L746 335"/>
+    </g>
+    <g opacity="0.5">
+      <path d="M150 415 L172 445 L194 415"/><path d="M214 415 L236 445 L258 415"/><path d="M278 415 L300 445 L322 415"/>
+      <path d="M342 415 L364 445 L386 415"/><path d="M402 415 L424 445 L446 415"/><path d="M462 415 L484 445 L506 415"/>
+      <path d="M522 415 L544 445 L566 415"/><path d="M582 415 L604 445 L626 415"/><path d="M642 415 L664 445 L686 415"/>
+      <path d="M702 415 L724 445 L746 415"/>
+    </g>
+    <!-- yarn tail -->
+    <path d="M746 445 C776 470 786 505 762 535" stroke-dasharray="14 12"/>
+  </g>
+
+  <!-- stitch key -->
+  <text x="880" y="268" text-anchor="middle" font-family="Fredoka, 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#7A3E55">Four Stitches</text>
+  <g font-family="Inter, 'Segoe UI', sans-serif" font-size="24" fill="#7A3E55">
+    <text x="880" y="330" text-anchor="middle">ch · sc · hdc · inc</text>
+    <text x="880" y="374" text-anchor="middle" font-size="20" opacity="0.75">US crochet terms</text>
+    <text x="880" y="438" text-anchor="middle" font-size="19" opacity="0.55">Texture illustration</text>
+  </g>
+</svg>

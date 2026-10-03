@@ -16,6 +16,10 @@ const PAYHIP_FIT_GUIDE_URL =
 const PAYHIP_JACKET_URL =
   'https://payhip.com/b/y0f4B?utm_source=blog&utm_medium=cta&utm_campaign=easy_sweater_free';
 
+/** Payhip product link for the top-down pullover pattern funnel, with UTM tracking. */
+const PAYHIP_TOPDOWN_URL =
+  'https://payhip.com/b/ZtGeJ?utm_source=blog&utm_medium=cta&utm_campaign=topdown_buying';
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'easy-cute-baby-beanie-pattern',
@@ -1117,6 +1121,216 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         q: 'Can I sell the finished sweater?',
         a: 'Yes — you are welcome to sell finished handmade items. What you may not do is resell or redistribute the digital pattern file itself. Check the terms page for the full personal-use license details.'
+      }
+    ]
+  },
+  {
+    slug: 'top-down-crochet-sweater-pattern',
+    title: 'Top Down Crochet Sweater Pattern (PDF, US Terms) – Size-Inclusive Beginner Pullover',
+    excerpt:
+      'A size-inclusive top-down crochet pullover pattern in US terms with fit checkpoints, sleeve/body guidance, and a printable layout.',
+    metaDescription:
+      'Top down crochet sweater pattern in US terms: a size-inclusive beginner pullover PDF with fit checkpoints for yoke depth, body and sleeve length, materials, and FAQ.',
+    date: 'October 3, 2026',
+    readingTime: '6 min read',
+    coverImage: '/images/blog/topdown-sweater-hero.svg',
+    category: 'Sweaters',
+    author: {
+      name: 'Emma Lindqvist',
+      role: 'Head Pattern Designer'
+    },
+    quickSummary: {
+      title: 'Quick Summary',
+      bullets: [
+        'A top down crochet sweater pattern is worked from the neck down, so you try the pullover on as you go and adjust before the end.',
+        'Written in US crochet terms and rated beginner-friendly: chains, single crochet, half double crochet, and simple increases.',
+        'Size-inclusive adult range from XS/S through 4/5XL, with guidance on choosing your ease.',
+        'The printable PDF includes sizing guidance, step-by-step structure, fit checkpoints, and a clean layout for working from paper.',
+        'Fit is checked three times: yoke depth, body length, and sleeve length.'
+      ]
+    },
+    tableOfContents: [
+      { id: 'intro', label: '1. Why Top-Down Works for Beginners' },
+      { id: 'what-youll-make', label: '2. What You’ll Make' },
+      { id: 'skill-level', label: '3. Skill Level & Stitches' },
+      { id: 'sizing', label: '4. Size-Inclusive Fit (XS–5XL)' },
+      { id: 'included', label: '5. What’s in the PDF' },
+      { id: 'materials', label: '6. Materials Overview' },
+      { id: 'checkpoints', label: '7. Fit Checkpoints' },
+      { id: 'conclusion', label: '8. Conclusion & Next Steps' },
+      { id: 'faq', label: '9. FAQ' }
+    ],
+    sections: [
+      {
+        id: 'intro',
+        title: 'Why a Top Down Crochet Sweater Pattern Is Beginner-Friendly',
+        content:
+          'A top down crochet sweater pattern is one of the calmest ways to make your first garment: you start at the neck, work down through the yoke, and try the pullover on as you go. There is no guessing at the end whether the body is too short or the armholes sit wrong — you check while there is still something to change.\n\nThat try-on-as-you-go habit is the whole reason top-down construction suits beginners. Every checkpoint happens while the piece is still on your hook, so fit problems get caught early instead of after a weekend of seaming. And because the body and sleeves are worked straight from the yoke, there are no side panels to match up or set-in sleeves to ease in.\n\nThis page is a buying guide: what the finished pullover looks like, who it suits, what the printable PDF contains, and how to check your fit along the way. If you are still warming up with smaller projects, our [free winter crochet patterns](/free-patterns) are quick weekend makes, and our earlier [easy crochet sweater pattern free](/blog/easy-crochet-sweater-pattern-free) guide covers motif-based planning in more detail. You can always come [back to the blog](/blog) for more tutorials.'
+      },
+      {
+        id: 'what-youll-make',
+        title: 'What You’ll Make: A Cozy Winter Pullover',
+        content:
+          'The finished piece is a relaxed pullover sweater for everyday winter wear — the kind you reach for over a tee on cold mornings, at the market, and through the whole season.\n\n• Silhouette: a comfortable pullover with an easy, drapey fit and a wide neckline that pulls on without fuss.\n• Fabric: worsted-weight ombre yarn gives the body a soft color shift with zero extra work — the gradient does the decorating while you crochet simple, even rows.\n• Length: hip-grazing by default, with notes in the PDF for shortening or lengthening the body.\n• Sleeve: full-length sleeves worked straight from the yoke, with fit checkpoints so they end at your wrist, not past it.\n\nIt is a wearable, washable, gift-worthy winter staple — and because you make it yourself, you choose the colors that actually fit your wardrobe.'
+      },
+      {
+        id: 'skill-level',
+        title: 'Skill Level and Stitches Used (US Terms)',
+        content:
+          'Level: beginner to advanced beginner. If you can make a scarf and are comfortable counting stitches, you can make this pullover.\n\nAll instructions are written in US crochet terms, with a stitch abbreviation key inside the PDF. The fabric uses four basics:\n\n• Chain (ch) — foundation and turning chains.\n• Single crochet (sc) — dense, warm fabric for the body.\n• Half double crochet (hdc) — a slightly taller stitch for softer drape where you want it.\n• Increases (2 sc in one stitch) — how the yoke grows from the neck to the shoulders.\n\nPlus slip stitch (sl st) for joining rounds and a tapestry needle for the few ends you weave in. No cables, no colourwork, no pattern charts required — if you can read a short row instruction and keep a stitch marker in place, you are ready.'
+      },
+      {
+        id: 'sizing',
+        title: 'Size-Inclusive Fit: XS/S Through 4/5XL and How Ease Works',
+        content:
+          'The pattern covers adult sizes XS/S through 4/5XL, with the sizing notes written so you can pick your size by measurement rather than by label.\n\nStart with your actual body bust measurement, then decide how much ease you want — ease is the difference between your body and the finished sweater:\n\n• Snug fit: about 1–2 in (2.5–5 cm) of positive ease. Close to the body, good under a coat.\n• Standard fit: about 2–4 in (5–10 cm). The default recommendation, and the most forgiving for a first sweater.\n• Relaxed fit: about 4–6 in (10–15 cm). Oversized and cozy over layers.\n\nChoose the size closest to your bust plus your chosen ease, then use the fit checkpoints below to fine-tune length. Between sizes? Size up for a softer drape, or size down if you prefer a closer fit — the PDF notes where each adjustment is easiest.',
+        table: {
+          headers: ['Fit Style', 'Positive Ease (in)', 'Positive Ease (cm)', 'Best For'],
+          rows: [
+            ['Snug', '1–2 in', '2.5–5 cm', 'A close base layer'],
+            ['Standard', '2–4 in', '5–10 cm', 'Everyday wear (recommended)'],
+            ['Relaxed', '4–6 in', '10–15 cm', 'Cozy layering over sweaters']
+          ],
+          caption:
+            'Ease guidance for planning only — always confirm against your own measurements and the sizing notes in the PDF.'
+        }
+      },
+      {
+        id: 'included',
+        title: 'What’s Included in the Printable PDF',
+        content:
+          'The PDF is built to be worked from paper at your own pace — no scrolling back and forth on a phone with yarn in both hands.\n\n• Complete row-by-row instructions in US terms, written for beginners.\n• Size-by-size guidance for XS/S through 4/5XL, with a clear sizing chart.\n• Stitch abbreviation glossary and gauge instructions.\n• Fit checkpoints marked at the yoke, body, and sleeves.\n• Materials list with yarn quantity guidance and hook size.\n• Finishing notes: weaving in ends, blocking, and care.\n• Clean, printer-friendly layout with generous margins for notes.'
+      },
+      {
+        id: 'materials',
+        title: 'Materials Overview: Ombre Worsted Yarn and a 5.0 mm Hook',
+        content:
+          'The supply list is short — a first sweater should not need a shopping spree.\n\n• Yarn: worsted weight (#4). An ombre or gradient cake is a great match for this pullover because the color transition builds itself as you work; a solid color shows off the stitch texture just as well. Buy from a single dye lot, and keep one spare skein.\n• Hook: 5.0 mm (US H/8). If your tension is tight, go up to 5.5 mm so the fabric keeps its drape.\n• Notions: tapestry needle, scissors, 4–6 stitch markers, a soft tape measure, and a row counter or notes app for tracking yoke repeats.\n• Optional: blocking mats and a steamer to even out the finished fabric.\n\nFor more on yarn weight and substitution, our [free winter crochet patterns](/free-patterns) include a yarn swap chart you can reuse on any project.'
+      },
+      {
+        id: 'checkpoints',
+        title: 'Fit Checkpoints: Yoke Depth, Body Length, and Sleeve Length',
+        content:
+          'Three stops keep the pullover on track. Try the piece on at each one — that is the advantage of top-down construction.\n\n1. Yoke depth (after the increase section): put the sweater on and check that the underarm sits about 1–2 in (2.5–5 cm) below your armpit, with the fabric lying flat across the chest. Too tight across the back means add an increase round; too boxy means stop a round earlier.\n\n2. Body length: try it on over the top you plan to wear with it. The default hem sits near the hip. Add or remove plain rounds — no shaping involved — until it lands where you want it.\n\n3. Sleeve length: with the body done, work the sleeve and check it at the wrist bone. Your hand should pass through the cuff with a gentle tug. Long sleeves are simply more rounds; short sleeves are fewer.',
+        steps: [
+          {
+            step: 1,
+            title: 'Try on at the underarm',
+            instruction:
+              'Once the yoke increases finish, try the piece on before splitting for the arms. The underarm should sit comfortably below your armpit with no pulling across the upper back.',
+            tip: 'Model the piece over the shirt you will wear most with the sweater — layers change how the yoke sits.'
+          },
+          {
+            step: 2,
+            title: 'Check body length before the final rounds',
+            instruction:
+              'Work plain rounds and try on every few. Stop when the hem reaches your preferred length — the last few rounds are the easiest place to adjust and the hardest to undo later.',
+            tip: 'Write down your round count when it fits; you will reuse it for the second version.'
+          },
+          {
+            step: 3,
+            title: 'Measure the sleeve at the wrist',
+            instruction:
+              'Try the sweater on and measure from shoulder to wrist bone while wearing it. Add or remove rounds until the cuff stops exactly at your wrist.',
+            tip: 'Make both sleeves in the same session with the same tension so the pair matches.'
+          }
+        ]
+      },
+      {
+        id: 'conclusion',
+        title: 'Conclusion: Start Your Top-Down Sweater Today',
+        content:
+          'A top down crochet sweater pattern turns garment-making into a sequence of small, checkable steps: neck, yoke, body, sleeves — with a try-on at every stage. Add size-inclusive guidance from XS/S to 4/5XL and a printable layout, and it is the most approachable way to make the sweater you will actually wear this winter.\n\nIf you are still building confidence, start with a quick accessory from our [free winter crochet patterns](/free-patterns) or read the [easy crochet sweater pattern free](/blog/easy-crochet-sweater-pattern-free) planning guide first. When you are ready for the full build, the printable PDF is linked below — and there is always more on the [blog](/blog).'
+      }
+    ],
+    inArticleImages: [
+      {
+        afterSectionId: 'skill-level',
+        src: '/images/blog/topdown-sweater-texture.svg',
+        alt: 'Close-up illustration of the simple stitch texture used in the top down crochet pullover',
+        caption: 'Four basic stitches in US terms — the whole fabric of the pullover.'
+      },
+      {
+        afterSectionId: 'checkpoints',
+        src: '/images/blog/topdown-sweater-fit-checkpoints.svg',
+        alt: 'Diagram of a top down crochet sweater showing yoke depth, body length and sleeve length fit checkpoints',
+        caption: 'Three try-on checkpoints: yoke depth, body length, sleeve length.'
+      }
+    ],
+    callouts: [
+      {
+        after: 'sizing',
+        title: 'Fit Tip',
+        tone: 'rose',
+        body: 'Choose your size from your body measurement plus your ease, not from the size label on a shop sweater. Crochet sizing labels vary wildly — the number on the tape does not.'
+      },
+      {
+        after: 'checkpoints',
+        title: 'Common Mistake',
+        tone: 'mint',
+        body: 'Skipping the try-ons because the piece is "almost done." The checkpoints exist while the yarn is still attached — that is exactly when adjusting is cheap.'
+      }
+    ],
+    ctas: [
+      {
+        after: 'quick-summary',
+        headline: 'Get the Top-Down Crochet Pullover PDF',
+        body: 'Printable PDF pattern in US terms with size-inclusive guidance and fit checkpoints.',
+        buttonLabel: 'Get the PDF Pattern',
+        url: PAYHIP_TOPDOWN_URL
+      },
+      {
+        after: 'included',
+        headline: 'Printable + beginner-friendly',
+        body: 'Clean layout, step-by-step structure, and a better experience than scrolling.',
+        buttonLabel: 'View on Payhip',
+        url: PAYHIP_TOPDOWN_URL
+      },
+      {
+        after: 'end',
+        headline: 'Ready to crochet your pullover?',
+        body: 'Grab the printable PDF and start your top-down sweater today.',
+        buttonLabel: 'Get Pattern PDF',
+        url: PAYHIP_TOPDOWN_URL
+      }
+    ],
+    finishingTips: [
+      'Block the finished pullover gently so the yoke opens up and the hem hangs straight.',
+      'Weave in ends along the seams and stitch columns so nothing shows on the right side.',
+      'Note your hook size, yarn, and round counts on the first page of the PDF — the second sweater takes half the time.'
+    ],
+    faqs: [
+      {
+        q: 'What yarn should I use for this top down crochet sweater pattern?',
+        a: 'Worsted weight (#4) is the recommendation. An ombre or gradient cake gives a beautiful color shift with no extra effort, while a solid color shows the stitch texture clearly and makes seaming-free finishing very forgiving. Buy from one dye lot and keep an extra skein for fixes.'
+      },
+      {
+        q: 'How important is gauge for a sweater?',
+        a: 'Very — gauge decides the finished size more than anything else. Make a small swatch with your 5.0 mm hook, measure it after blocking, and compare it to the gauge given in the PDF. If your fabric is looser, drop half a hook size; if it is tighter, go up. Swatching an hour now prevents a too-tight yoke later.'
+      },
+      {
+        q: 'Can I resize the pattern or make it in a different size?',
+        a: 'Yes. The PDF covers sizes XS/S through 4/5XL with size-specific guidance. Pick your size from your bust measurement plus your chosen ease. Between sizes, size up for a relaxed drape or down for a closer fit — the checkpoints tell you where to adjust.'
+      },
+      {
+        q: 'How do I make the body or sleeves shorter or longer?',
+        a: 'Length changes are the easiest adjustment in a top-down sweater: add or remove plain rounds. For the body, try on every few rounds and stop at your preferred hem. For sleeves, measure to your wrist bone and adjust rounds to match — no reshaping required.'
+      },
+      {
+        q: 'Are the sleeves worked separately and sewn on?',
+        a: 'No. In this construction the sleeves are crocheted straight from the yoke, so there are no set-in sleeve seams to ease. You simply work the body first (or the sleeves first, your choice), then return to the held stitches and work each sleeve in rounds.'
+      },
+      {
+        q: 'How do I wash and care for the finished pullover?',
+        a: 'Hand wash or use a gentle machine cycle in cool water with a mild detergent, then dry flat to keep the yoke from stretching. Worsteds with wool content bloom softly after the first wash. Always wash your swatch first so you know how the fabric behaves before the whole sweater meets water.'
+      },
+      {
+        q: 'How does printing the PDF work?',
+        a: 'Purchase on Payhip, download the file, and print at home on Letter or A4. The layout is printer-friendly with wide margins, and you can print the sizing chart and your chosen size’s section only to save ink. Most crocheters print the materials page and checkpoints and work from those.'
+      },
+      {
+        q: 'I have never crocheted a garment before — is this too advanced?',
+        a: 'It is designed for exactly that moment. You only need chains, single crochet, half double crochet, increases, and the patience to try the piece on at three checkpoints. If you can follow a short row instruction and keep a stitch marker in place, you are ready to start.'
       }
     ]
   }

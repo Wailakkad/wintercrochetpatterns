@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Diagram of a top down crochet sweater showing yoke depth, body length and sleeve length fit checkpoints">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#F8D7E5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1095" cy="110" r="70" fill="#E9E2FF" opacity="0.6"/>
+  <circle cx="105" cy="580" r="88" fill="#DFF7EF" opacity="0.6"/>
+
+  <!-- sweater body -->
+  <g stroke="#7A3E55" stroke-width="8" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M480 110 L720 110 C746 110 766 130 766 156 L800 300 C806 326 790 352 763 356 L740 360 L740 545 C740 566 723 583 702 583 L498 583 C477 583 460 566 460 545 L460 360 L437 356 C410 352 394 326 400 300 L434 156 C434 130 454 110 480 110 Z"/>
+    <path d="M555 110 C562 132 638 132 645 110"/>
+    <path d="M462 250 L738 250" stroke-dasharray="13 11" stroke-width="6"/>
+    <path d="M462 420 L738 420" stroke-dasharray="13 11" stroke-width="6"/>
+  </g>
+
+  <!-- checkpoint labels -->
+  <g font-family="Inter, 'Segoe UI', sans-serif" font-size="22" font-weight="600" fill="#7A3E55">
+    <circle cx="868" cy="250" r="24" fill="#FFFFFF" stroke="#7A3E55" stroke-width="6"/>
+    <text x="868" y="258" text-anchor="middle">1</text>
+    <path d="M744 250 L840 250" stroke="#7A3E55" stroke-width="5" stroke-linecap="round"/>
+    <text x="906" y="244">Yoke depth</text>
+    <text x="906" y="272" font-size="17" font-weight="400" opacity="0.75">try on here</text>
+
+    <circle cx="868" cy="420" r="24" fill="#FFFFFF" stroke="#7A3E55" stroke-width="6"/>
+    <text x="868" y="428" text-anchor="middle">2</text>
+    <path d="M744 420 L840 420" stroke="#7A3E55" stroke-width="5" stroke-linecap="round"/>
+    <text x="906" y="414">Body length</text>
+    <text x="906" y="442" font-size="17" font-weight="400" opacity="0.75">add or remove rounds</text>
+
+    <circle cx="332" cy="470" r="24" fill="#FFFFFF" stroke="#7A3E55" stroke-width="6"/>
+    <text x="332" y="478" text-anchor="middle">3</text>
+    <path d="M356 470 L458 470" stroke="#7A3E55" stroke-width="5" stroke-linecap="round"/>
+    <text x="196" y="464">Sleeve length</text>
+    <text x="176" y="492" font-size="17" font-weight="400" opacity="0.75">stop at the wrist</text>
+  </g>
+
+  <text x="600" y="640" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#7A3E55" opacity="0.55">Fit checkpoints illustration</text>
+</svg>
