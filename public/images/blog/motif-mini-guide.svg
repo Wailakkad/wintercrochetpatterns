@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Diagram of granny-style crochet motifs in a grid showing motif sizing for a sweater">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#F8D7E5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1075" cy="115" r="70" fill="#E9E2FF" opacity="0.6"/>
+  <circle cx="110" cy="575" r="90" fill="#DFF7EF" opacity="0.6"/>
+
+  <rect x="110" y="88" width="640" height="500" rx="32" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="4"/>
+
+  <!-- 3 x 3 motif grid -->
+  <g stroke="#7A3E55" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="170" y="150" width="150" height="150" rx="14" fill="#FFF5F9"/>
+    <path d="M245 178 L272 232 L218 232 Z"/>
+    <path d="M210 252 C232 266 258 266 280 252"/>
+
+    <rect x="355" y="150" width="150" height="150" rx="14" fill="#F8D7E5" opacity="0.75"/>
+    <path d="M430 178 L457 232 L403 232 Z"/>
+    <path d="M395 252 C417 266 443 266 465 252"/>
+
+    <rect x="540" y="150" width="150" height="150" rx="14" fill="#E9E2FF" opacity="0.7"/>
+    <path d="M615 178 L642 232 L588 232 Z"/>
+    <path d="M580 252 C602 266 628 266 650 252"/>
+
+    <rect x="170" y="335" width="150" height="150" rx="14" fill="#E9E2FF" opacity="0.7"/>
+    <path d="M245 363 L272 417 L218 417 Z"/>
+    <path d="M210 437 C232 451 258 451 280 437"/>
+
+    <rect x="355" y="335" width="150" height="150" rx="14" fill="#FFF5F9"/>
+    <path d="M430 363 L457 417 L403 417 Z"/>
+    <path d="M395 437 C417 451 443 451 465 437"/>
+
+    <rect x="540" y="335" width="150" height="150" rx="14" fill="#DFF7EF" opacity="0.8"/>
+    <path d="M615 363 L642 417 L588 417 Z"/>
+    <path d="M580 437 C602 451 628 451 650 437"/>
+  </g>
+
+  <!-- measurement arrow across one motif -->
+  <g stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+    <path d="M170 512 L320 512"/>
+    <path d="M170 498 L170 526"/>
+    <path d="M320 498 L320 526"/>
+  </g>
+  <text x="245" y="556" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="26" font-weight="600" fill="#7A3E55">1 blocked motif</text>
+
+  <!-- side note -->
+  <text x="880" y="290" text-anchor="middle" font-family="Fredoka, 'Segoe UI', sans-serif" font-size="38" font-weight="700" fill="#7A3E55">Motif = Gauge</text>
+  <text x="880" y="340" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="23" fill="#7A3E55" opacity="0.75">Count × motif size</text>
+  <text x="880" y="374" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="23" fill="#7A3E55" opacity="0.75">= finished measurement</text>
+  <text x="880" y="440" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="19" fill="#7A3E55" opacity="0.5">Mini guide illustration</text>
+</svg>

@@ -12,6 +12,10 @@ const PAYHIP_FREE_PATTERN_EASY_URL =
 const PAYHIP_FIT_GUIDE_URL =
   'https://payhip.com/b/ZtGeJ?utm_source=blog&utm_medium=cta&utm_campaign=fit_guide';
 
+/** Payhip product link for the crochet sweater jacket pattern funnel, with UTM tracking. */
+const PAYHIP_JACKET_URL =
+  'https://payhip.com/b/y0f4B?utm_source=blog&utm_medium=cta&utm_campaign=easy_sweater_free';
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'easy-cute-baby-beanie-pattern',
@@ -927,6 +931,192 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         q: 'How do I avoid thumb discomfort?',
         a: 'The thumb opening should sit at the base of your thumb with no pulling. Rubbing means the hole is too small: add 1–2 chains and skip 1–2 more stitches. Bunching means it is too big: remove chains the same way. If the position feels wrong, move the thumb round one round closer to or further from the cuff.'
+      }
+    ]
+  },
+  {
+    slug: 'easy-crochet-sweater-pattern-free',
+    title: 'Easy Crochet Sweater Pattern Free: Wearable Fit + Granny Motif Sleeve Guide (US Terms)',
+    excerpt:
+      'A beginner-friendly guide to planning a cozy crochet sweater/jacket using granny-style motifs—fit tips, materials, and a free mini guide in US terms. Printable PDF upgrade included.',
+    metaDescription:
+      'Easy crochet sweater pattern free guide: materials checklist, jacket and sleeve measurements in inches and cm, a granny motif mini guide in US terms, common mistakes, and FAQ.',
+    date: 'October 3, 2026',
+    readingTime: '8 min read',
+    coverImage: '/images/blog/easy-sweater-free-hero.svg',
+    category: 'Sweaters',
+    author: {
+      name: 'Emma Lindqvist',
+      role: 'Head Pattern Designer'
+    },
+    quickSummary: {
+      title: 'Quick Summary',
+      bullets: [
+        'An easy crochet sweater pattern free of complicated shaping comes down to four things: fit numbers, the right materials, motif sizing math, and a clean join.',
+        'Measure your chest, body length, sleeve length, upper arm, and wrist in both inches and centimeters before you buy yarn.',
+        'Motifs are your gauge: one swatch motif decides every finished measurement, so block and measure it first.',
+        'Sleeve planning is simple division — sleeve length ÷ motif length = motifs long; upper arm ÷ motif width = motifs around.',
+        'This page is a free planning mini guide in US crochet terms; the printable PDF has the full motif rounds, assembly order, and finishing checklist.'
+      ]
+    },
+    tableOfContents: [
+      { id: 'intro', label: '1. Why Plan Before You Hook' },
+      { id: 'materials', label: '2. Materials Checklist' },
+      { id: 'fit-planning', label: '3. Fit Planning (in + cm)' },
+      { id: 'mini-guide', label: '4. Free Mini Guide: Motifs & Sleeves' },
+      { id: 'mistakes', label: '5. Common Mistakes + Fixes' },
+      { id: 'conclusion', label: '6. Conclusion & Next Steps' },
+      { id: 'faq', label: '7. Troubleshooting FAQ' }
+    ],
+    sections: [
+      {
+        id: 'intro',
+        title: 'Why This Easy Crochet Sweater Pattern Free Guide Starts With Fit',
+        content:
+          'A cozy crochet sweater is the piece you actually reach for all winter, which makes it worth planning properly. This guide is the free half of an easy crochet sweater pattern free of confusing stitch counts: it covers fit, materials, motif sizing, and assembly logic in plain US terms, so you can build a jacket that fits instead of one that hangs in the closet.\n\nEverything below is original technique and planning advice — measurements, math, and sequencing. It is deliberately a mini guide rather than a full garment pattern, so nothing here duplicates a paid design: you get the skills to plan confidently, and the row-by-row version stays in the printable PDF.\n\nPrefer to browse first? Our [free winter crochet patterns](/free-patterns) are quick weekend accessories that build the same skills, our [crochet sweater pattern](/blog/crochet-sweater-pattern-denim-jacket) walkthrough shows how a jacket-style piece comes together, and our [crochet sweater outfit ideas](/blog/crochet-sweater-outfit-ideas) post helps you style the finished make. Fresh tutorials land on the [blog](/blog) every week.'
+      },
+      {
+        id: 'materials',
+        title: 'Materials Checklist for a Motif-Based Sweater',
+        content:
+          'A sweater is a bigger commitment than a hat, but the shopping list is still short. Gather everything first — running out of a dye lot halfway through a garment is the classic beginner setback.\n\n• Yarn: worsted weight (#4) is the easiest sweater yarn to control. Plan roughly 900–1,300 yards (825–1,200 m) for a women’s adult medium and 1,200–1,600 yards (1,100–1,475 m) for larger sizes or longer jackets. Buy one extra skein — seams and fixes use more than you expect.\n• Hook: 5 mm (US H/8) for worsted, plus a 4.5 mm (US G/7) if your tension is loose. Match the hook to your swatch, not to the ball band.\n• Notions: tapestry needle, sharp scissors, 4–6 stitch markers, and a soft tape measure.\n• Blocking tools: rust-proof pins and a steam iron or handheld steamer. Blocking is not optional for motifs — it is what makes them lay flat and match.\n• Sewing basics: a length of the same yarn and a tapestry needle handle most seams; keep a fine sewing needle and thread on hand for stitching a fabric lining or a name label into the neckband.\n\nOptional: a row counter or notes app for tracking motif counts, and a non-slip mat so your layout does not shuffle while you photograph it.'
+      },
+      {
+        id: 'fit-planning',
+        title: 'Fit Planning: Measure the Jacket and the Sleeve (in + cm)',
+        content:
+          'Fit is 90% of whether a sweater gets worn. Take six measurements before you touch the hook — on your body and on a jacket you already love.\n\nBody measurements: wrap the tape around the fullest part of your chest with your arms relaxed, measure from underarm to hem for body length, and record your preferred sleeve length from shoulder point to wrist bone.\n\nReference jacket method: lay a well-fitting jacket flat and measure it instead of (or alongside) your body. Measure across, just below the armholes, and double it for the flat chest width. Copy the length, the sleeve, and the armhole opening. A garment you already wear is more honest than a size chart.\n\nAlways add ease: a crocheted fabric has less stretch than knitted fabric, so aim for 2–4 in (5–10 cm) of positive ease around the chest. If the number matches your body exactly, the finished sweater will be snug.',
+        table: {
+          headers: ['Measurement', 'Where to Measure', 'Typical Adult Range (in)', 'Typical Adult Range (cm)'],
+          rows: [
+            ['Chest / bust', 'Fullest part, tape level', '34–44 in', '86–112 cm'],
+            ['Body length', 'Underarm to hem', '18–24 in', '46–61 cm'],
+            ['Sleeve length', 'Shoulder point to wrist', '22–26 in', '56–66 cm'],
+            ['Upper arm', 'Fullest part of the bicep', '11–15 in', '28–38 cm'],
+            ['Wrist', 'Around the wrist bone', '6–8 in', '15–20 cm']
+          ],
+          caption:
+            'Planning ranges only, not guaranteed sizing. Measure your own body and your reference jacket, then add ease.'
+        }
+      },
+      {
+        id: 'mini-guide',
+        title: 'Free Mini Guide: How Motifs Affect Sizing, Sleeve Count, and Safe Assembly',
+        content:
+          'This is the free mini guide — the technique layer that turns a pile of motifs into a sweater that fits. Three ideas do most of the work: motif size drives every measurement, sleeve planning is just division, and the join decides whether the garment holds its shape.\n\n1. How motifs affect sizing. A motif sweater has no invisible gauge; the motif IS the gauge. Make one motif exactly as you intend to make the rest, steam block it, then measure the finished square or rectangle. That single number — say 4 in (10 cm) — is the unit your whole pattern is built from. A motif that finishes 0.5 in (1.3 cm) too large can add several inches across a body panel, which is why test motifs are worth the hour.\n\n2. Planning motif count for sleeve length and width. Use your blocked motif size against the measurements from the last section. Sleeve length ÷ motif length tells you how many motifs long the sleeve needs; upper-arm circumference ÷ motif width tells you how many motifs around. Round the width count to the nearest whole motif, then split any remainder between the top and bottom of the sleeve so the seam sits centered under the arm instead of drifting forward.\n\n3. Attaching safely (overview). Join motifs on a flat surface, right sides up, in the same order you laid them out. Work seams with a tapestry needle and a long length of yarn using a mattress or whip stitch, catching the firm loops just inside the edge rather than the loose chain spaces — that is what stops a shoulder seam from stretching out. Seam the shoulders first, hold the body up against yourself, then set in the sleeves before closing the side and underarm line, so you can still adjust length while it is easy to reach.',
+        steps: [
+          {
+            step: 1,
+            title: 'Make and block one test motif',
+            instruction:
+              'Crochet a single motif in your chosen yarn and hook, steam block it, and measure it in both directions. Write the number down — every count in this project is calculated from it.',
+            tip: 'Measure after blocking, not straight off the hook. Unblocked motifs can differ by half an inch or more, and the error multiplies across a panel.'
+          },
+          {
+            step: 2,
+            title: 'Divide your measurements into motif counts',
+            instruction:
+              'Take sleeve length ÷ motif length and upper arm ÷ motif width. Round the around-count to a whole motif, then balance any remainder evenly so the seam stays centered.',
+            tip: 'Check the body too: chest width ÷ motif width should land within one motif of your eased chest measurement.'
+          },
+          {
+            step: 3,
+            title: 'Layout, pin, then join',
+            instruction:
+              'Arrange every motif in order on the floor or a bed, photograph the layout, then pin the first row and seam it before moving on. Work shoulders first, try the piece on, then set in sleeves and close the sides.',
+            tip: 'Seam with the same dye lot you used for the outer round so the join disappears into the fabric.'
+          }
+        ]
+      },
+      {
+        id: 'mistakes',
+        title: 'Common Mistakes and Quick Fixes',
+        content:
+          'Most sweater problems are decided in the first hour, not the last. Watch for these:\n\n• Skipping the test motif. Fix: block and measure one before making twenty. It costs an hour and saves a weekend.\n• Counting unblocked motifs. Fix: block every motif to the same dimensions and pin them to a template while they dry.\n• Crocheting to your body measurement with no ease. Fix: add 2–4 in (5–10 cm) at the chest; a crocheted fabric does not give the way a knit one does.\n• Changing hook size halfway through. Fix: keep one hook for the entire garment and swatch with it. Motifs made at different tensions will never join flat.\n• Sewing seams on the stretched fabric. Fix: support the weight of the piece on a table while you seam, and catch the firm inner loops instead of the edge chains.\n• Guessing sleeve width. Fix: measure a reference jacket sleeve flat, double it, and divide by your motif size — math beats stretching it on later.\n\nIf any single fix feels bigger than the project, our [crochet sweater pattern](/blog/crochet-sweater-pattern-denim-jacket) guide walks through a full jacket build in order.'
+      },
+      {
+        id: 'conclusion',
+        title: 'Conclusion: Plan the Fit, Then Make It',
+        content:
+          'You now have the planning layer of an easy crochet sweater: a materials list, five body and sleeve measurements in inches and centimeters, the motif-size math that drives both, and a safe assembly order. Make the test motif tonight, write down its blocked size, and your weekend knitting circle version of the plan is ready to grow into a real garment.\n\nWhen you want the full row-by-row build — exact motif rounds, assembly sequence, attaching motifs to the cuff and armhole, and the finishing checklist — the printable PDF has it in a clean, photo-rich layout.\n\nKeep going with our [free winter crochet patterns](/free-patterns), browse the [blog](/blog) for new tutorials, or pin this guide and save a few [crochet sweater outfit ideas](/blog/crochet-sweater-outfit-ideas) for when your sweater is off the hook.'
+      }
+    ],
+    inArticleImages: [
+      {
+        afterSectionId: 'fit-planning',
+        src: '/images/blog/sleeve-planning.svg',
+        alt: 'Diagram showing where to measure sleeve length, upper arm and wrist for a crochet sweater',
+        caption: 'Sleeve length, upper arm, wrist — measure in inches and centimeters before you plan motif counts.'
+      },
+      {
+        afterSectionId: 'mini-guide',
+        src: '/images/blog/motif-mini-guide.svg',
+        alt: 'Grid of granny-style crochet motifs showing how one blocked motif size determines sweater measurements',
+        caption: 'One blocked motif = one unit of measurement for the whole garment.'
+      }
+    ],
+    callouts: [
+      {
+        after: 'fit-planning',
+        title: 'Fit Tip',
+        tone: 'rose',
+        body: 'Measure a jacket you already love and use those numbers as your target. It accounts for the ease, drape, and length you actually enjoy wearing — your tape measure alone never does.'
+      },
+      {
+        after: 'mistakes',
+        title: 'Common Mistake',
+        tone: 'mint',
+        body: 'Making all twenty motifs before blocking one. Block the first motif, measure it, and only then commit — otherwise a half-inch drift turns into several inches across the body panel.'
+      }
+    ],
+    ctas: [
+      {
+        after: 'quick-summary',
+        headline: 'Want the printable version?',
+        body: 'Get the Crochet Sweater Jacket Pattern PDF with step-by-step photos and a clean layout.',
+        buttonLabel: 'Get the PDF Pattern',
+        url: PAYHIP_JACKET_URL
+      },
+      {
+        after: 'mini-guide',
+        headline: 'Upgrade for the full step-by-step',
+        body: 'The PDF includes motif rounds, assembly, attaching to cuff/armhole, and finishing checklist.',
+        buttonLabel: 'View on Payhip',
+        url: PAYHIP_JACKET_URL
+      },
+      {
+        after: 'end',
+        headline: 'Make a wearable statement piece',
+        body: 'If you prefer a printable PDF (US terms), grab the full pattern here.',
+        buttonLabel: 'Get the Pattern PDF',
+        url: PAYHIP_JACKET_URL
+      }
+    ],
+    finishingTips: [
+      'Block every motif to one template size before you measure or join — it is the single biggest quality upgrade a motif sweater can get.',
+      'Photograph your layout before seaming so you can rebuild it if the pieces get shuffled.',
+      'Try the body on after the shoulders are joined and before the sides are closed; adjusting length is easy while the edges are still open.'
+    ],
+    faqs: [
+      {
+        q: 'Is this actually a full free crochet sweater pattern?',
+        a: 'It is a free planning mini guide, not a full garment pattern. You get the materials list, fit measurements, motif sizing math, sleeve-count formulas, and assembly overview — everything needed to plan the sweater. The exact motif rounds, stitch counts, and photo-by-photo assembly live in the printable PDF.'
+      },
+      {
+        q: 'What yarn is best for a beginner crochet sweater?',
+        a: 'A smooth, plied worsted weight (#4) in a solid or lightly heathered color. Solid yarns let you see your stitches and keep motif edges crisp, and worsted works up fast without being heavy. Avoid very fuzzy or highly variegated yarns for your first motif garment — they hide mistakes and make seams harder to place.'
+      },
+      {
+        q: 'How do I calculate how many motifs I need?',
+        a: 'Block one motif and measure it. Divide your target measurement by the motif size: sleeve length ÷ motif length, upper arm ÷ motif width, chest width ÷ motif width. Round to whole motifs and split any remainder so seams stay centered. Always make one or two extra motifs for mistakes and fixes.'
+      },
+      {
+        q: 'How long does a motif sweater take?',
+        a: 'Plan for 20–40 hours depending on size, motif detail, and how much seaming you do. Motifs themselves are fast and portable; the time goes into joining and finishing. Batching one motif per evening makes the project far less intimidating than weekend marathons.'
+      },
+      {
+        q: 'Can I sell the finished sweater?',
+        a: 'Yes — you are welcome to sell finished handmade items. What you may not do is resell or redistribute the digital pattern file itself. Check the terms page for the full personal-use license details.'
       }
     ]
   }

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Diagram of a crochet sweater sleeve showing where to measure length, upper arm and wrist">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#E9E2FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="72" fill="#F8D7E5" opacity="0.7"/>
+  <circle cx="1090" cy="570" r="95" fill="#DFF7EF" opacity="0.6"/>
+
+  <!-- sleeve shape -->
+  <g stroke="#7A3E55" stroke-width="8" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M420 120 L700 120 C716 120 728 132 728 148 L664 540 C660 566 638 585 612 585 L508 585 C482 585 460 566 456 540 L392 148 C392 132 404 120 420 120 Z"/>
+    <path d="M404 230 L716 230" stroke-dasharray="14 12" stroke-width="6"/>
+    <path d="M456 505 L664 505" stroke-dasharray="14 12" stroke-width="6"/>
+  </g>
+
+  <!-- cuff ribs -->
+  <g stroke="#7A3E55" stroke-width="5" stroke-linecap="round">
+    <path d="M498 540 L494 585"/>
+    <path d="M536 540 L534 585"/>
+    <path d="M574 540 L574 585"/>
+    <path d="M612 540 L614 585"/>
+    <path d="M650 540 L654 585"/>
+  </g>
+
+  <!-- upper arm width arrow -->
+  <g stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+    <path d="M360 178 L360 386"/>
+    <path d="M346 178 L374 178"/>
+    <path d="M346 386 L374 386"/>
+  </g>
+  <text x="255" y="290" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#7A3E55">Upper arm</text>
+
+  <!-- sleeve length arrow -->
+  <g stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+    <path d="M800 178 L800 545"/>
+    <path d="M786 178 L814 178"/>
+    <path d="M786 545 L814 545"/>
+  </g>
+  <text x="905" y="368" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#7A3E55">Sleeve length</text>
+
+  <!-- wrist arrow -->
+  <g stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+    <path d="M448 625 L672 625"/>
+    <path d="M448 611 L448 639"/>
+    <path d="M672 611 L672 639"/>
+  </g>
+  <text x="560" y="665" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="23" font-weight="600" fill="#7A3E55">Wrist</text>
+
+  <text x="196" y="600" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="19" fill="#7A3E55" opacity="0.55">Sleeve planning illustration</text>
+</svg>
