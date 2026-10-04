@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Diagram showing a blocked crochet motif and swatch with measurement arrows for gauge and motif sizing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#F8D7E5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="112" r="70" fill="#E9E2FF" opacity="0.6"/>
+  <circle cx="108" cy="578" r="88" fill="#DFF7EF" opacity="0.6"/>
+
+  <!-- blocked motif square -->
+  <rect x="130" y="140" width="360" height="360" rx="26" fill="#FFFFFF" stroke="#7A3E55" stroke-width="8"/>
+  <g stroke="#7A3E55" stroke-width="7" fill="none" stroke-linecap="round">
+    <circle cx="310" cy="320" r="120" stroke-dasharray="14 12"/>
+    <circle cx="310" cy="320" r="70" fill="#F8D7E5" opacity="0.7"/>
+    <circle cx="310" cy="320" r="28" fill="#FFF7EF"/>
+  </g>
+
+  <!-- measurement arrows -->
+  <g stroke="#7A3E55" stroke-width="6" stroke-linecap="round">
+    <path d="M130 545 L490 545"/>
+    <path d="M130 531 L130 559"/>
+    <path d="M490 531 L490 559"/>
+    <path d="M535 140 L535 500"/>
+    <path d="M521 140 L549 140"/>
+    <path d="M521 500 L549 500"/>
+  </g>
+
+  <!-- gauge swatch -->
+  <rect x="640" y="190" width="300" height="300" rx="20" fill="#FFF5F9" stroke="#7A3E55" stroke-width="7"/>
+  <g stroke="#7A3E55" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M680 250 L705 285 L730 250"/><path d="M750 250 L775 285 L800 250"/><path d="M820 250 L845 285 L870 250"/>
+    <path d="M680 330 L705 365 L730 330"/><path d="M750 330 L775 365 L800 330"/><path d="M820 330 L845 365 L870 330"/>
+    <path d="M680 410 L705 445 L730 410"/><path d="M750 410 L775 445 L800 410"/><path d="M820 410 L845 445 L870 410"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', sans-serif" fill="#7A3E55">
+    <text x="310" y="592" text-anchor="middle" font-size="23" font-weight="600">Motif: block, then measure</text>
+    <text x="790" y="540" text-anchor="middle" font-size="23" font-weight="600">Swatch: gauge check</text>
+    <text x="790" y="586" text-anchor="middle" font-size="19" opacity="0.55">Gauge &amp; sizing illustration</text>
+  </g>
+</svg>

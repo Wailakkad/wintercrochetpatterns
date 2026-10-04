@@ -1,4 +1,4 @@
-export type Category = 'Baby Hat' | 'Cardigan' | 'Headband' | 'Gloves' | 'Sweaters';
+export type Category = 'Baby Hat' | 'Cardigan' | 'Headband' | 'Gloves' | 'Sweaters' | 'Ponchos';
 export type Difficulty = 'Beginner' | 'Easy' | 'Intermediate';
 
 export interface Pattern {

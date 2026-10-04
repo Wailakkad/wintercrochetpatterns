@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Close-up illustration of a crochet flower motif border on a granny square poncho">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EF"/>
+      <stop offset="1" stop-color="#F8D7E5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1095" cy="110" r="70" fill="#E9E2FF" opacity="0.6"/>
+  <circle cx="105" cy="580" r="88" fill="#DFF7EF" opacity="0.6"/>
+
+  <rect x="95" y="88" width="710" height="500" rx="32" fill="#FFFFFF" stroke="#F8D7E5" stroke-width="4"/>
+
+  <!-- large flower motif -->
+  <g transform="translate(300 335)">
+    <g fill="#F8D7E5" stroke="#7A3E55" stroke-width="7">
+      <ellipse cx="0" cy="-88" rx="42" ry="60"/>
+      <ellipse cx="84" cy="-27" rx="42" ry="60" transform="rotate(72 84 -27)"/>
+      <ellipse cx="52" cy="72" rx="42" ry="60" transform="rotate(144 52 72)"/>
+      <ellipse cx="-52" cy="72" rx="42" ry="60" transform="rotate(216 -52 72)"/>
+      <ellipse cx="-84" cy="-27" rx="42" ry="60" transform="rotate(288 -84 -27)"/>
+    </g>
+    <circle cx="0" cy="0" r="40" fill="#FFF7EF" stroke="#7A3E55" stroke-width="7"/>
+    <circle cx="0" cy="0" r="16" fill="#7A3E55"/>
+  </g>
+
+  <!-- granny rounds to the right -->
+  <g transform="translate(610 335)" stroke="#7A3E55" stroke-width="7" fill="none" stroke-linecap="round">
+    <circle r="46" fill="#FFF5F9"/>
+    <circle r="92" fill="#E9E2FF" opacity="0.7"/>
+    <circle r="140" fill="#DFF7EF" opacity="0.6"/>
+    <path d="M-140 0 L-92 0 M140 0 L92 0 M0 -140 L0 -92 M0 140 L0 92" stroke-dasharray="12 10"/>
+  </g>
+
+  <text x="945" y="300" text-anchor="middle" font-family="Fredoka, 'Segoe UI', sans-serif" font-size="36" font-weight="700" fill="#7A3E55">Motif Border</text>
+  <text x="945" y="346" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="22" fill="#7A3E55" opacity="0.75">block · match · join</text>
+  <text x="945" y="410" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="19" fill="#7A3E55" opacity="0.55">Motif close-up placeholder</text>
+</svg>

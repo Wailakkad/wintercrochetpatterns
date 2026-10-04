@@ -20,6 +20,10 @@ const PAYHIP_JACKET_URL =
 const PAYHIP_TOPDOWN_URL =
   'https://payhip.com/b/ydiAF?utm_source=blog&utm_medium=cta&utm_campaign=topdown_buying';
 
+/** Payhip product link for the Flower Power granny poncho pattern funnel, with UTM tracking. */
+const PAYHIP_PONCHO_URL =
+  'https://payhip.com/b/6g7OP?utm_source=blog&utm_medium=cta&utm_campaign=poncho_sales_blog';
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'easy-cute-baby-beanie-pattern',
@@ -1331,6 +1335,217 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         q: 'I have never crocheted a garment before — is this too advanced?',
         a: 'It is designed for exactly that moment. You only need chains, single crochet, half double crochet, increases, and the patience to try the piece on at three checkpoints. If you can follow a short row instruction and keep a stitch marker in place, you are ready to start.'
+      }
+    ]
+  },
+  {
+    slug: 'crochet-poncho-pattern',
+    title: 'Crochet Poncho Pattern (PDF): Flower Power Granny Poncho – Beginner-Friendly (US Terms)',
+    excerpt:
+      'A beginner-friendly crochet poncho pattern overview with sizing, materials, and styling ideas—plus the printable PDF upgrade in US terms.',
+    metaDescription:
+      'Crochet poncho pattern guide: what you’ll make, sizes XS–5XL with ease tips, materials, gauge and motif blocking, construction steps, outfit ideas, and FAQ.',
+    date: 'October 3, 2026',
+    readingTime: '7 min read',
+    coverImage: '/images/blog/crochet-poncho-pattern-hero.svg',
+    category: 'Ponchos',
+    author: {
+      name: 'Emma Lindqvist',
+      role: 'Head Pattern Designer'
+    },
+    quickSummary: {
+      title: 'Quick Summary',
+      bullets: [
+        'A crochet poncho pattern is one of the fastest wearable winter projects: no sleeves, no set-in shaping, and it fits over everything in your closet.',
+        'The Flower Power poncho is built from classic granny motifs with a flower-forward border — a granny square poncho vibe with an easy, beginner-friendly finish.',
+        'Sizes run XS/M, L/2XL, and 3/5XL; choose your size from your shoulder-to-hem preference plus a little positive ease.',
+        'Gauge and blocked motif size matter more than stitch counts — one consistent motif unit keeps every edge straight.',
+        'Styling is half the fun: this is a crochet poncho outfit that layers over tees, turtlenecks, and dresses.'
+      ]
+    },
+    tableOfContents: [
+      { id: 'intro', label: '1. Why Ponchos Are Perfect' },
+      { id: 'what-youll-make', label: '2. What You’ll Make' },
+      { id: 'skill-level', label: '3. Skill Level & Stitches' },
+      { id: 'sizing', label: '4. Sizing & Ease (XS–5XL)' },
+      { id: 'materials', label: '5. Materials Checklist' },
+      { id: 'gauge', label: '6. Gauge & Motif Sizing' },
+      { id: 'construction', label: '7. How It’s Constructed' },
+      { id: 'outfit-ideas', label: '8. Crochet Poncho Outfit Ideas' },
+      { id: 'mistakes', label: '9. Common Mistakes + Fixes' },
+      { id: 'conclusion', label: '10. Conclusion & Next Steps' },
+      { id: 'faq', label: '11. FAQ' }
+    ],
+    sections: [
+      {
+        id: 'intro',
+        title: 'Why a Crochet Poncho Pattern Is the Perfect Winter Project',
+        content:
+          'If you want one project that goes from hook to hanger in a weekend, a crochet poncho pattern is hard to beat. There are no sleeves to shape, no armholes to fit, and the body is essentially a generous rectangle that drapes over anything you already own — so it is fast, wearable, and forgiving.\n\nThat combination is also why crochet poncho patterns easy enough for a first garment are so popular as gifts. A poncho slips over a winter coat, a hoodie, or a dress; it never needs to be “your size” in a precise way, and it looks like far more work than it takes. Add a motif border and you get the charm of a granny square poncho without committing to an entire sweater’s worth of seaming.\n\nThis guide gives you the free planning layer: what the finished piece looks like, how sizing and ease work, which materials to gather, why blocking decides your motif quality, and how the construction flows from first motif to final edging. When you are ready for row-by-row instructions, the printable PDF is linked throughout — and you can browse our [free winter crochet patterns](/free-patterns) for smaller practice projects or come [back to the blog](/blog) any time.'
+      },
+      {
+        id: 'what-youll-make',
+        title: 'What You’ll Make: A Flower Power Granny Motif Poncho',
+        content:
+          'The finished piece is a relaxed, pull-on poncho with a soft drape and a decorative motif border — our Flower Power take on a granny square poncho.\n\n• Shape: a classic poncho silhouette with a roomy body and an open neckline that pulls on without fuss. The front and back panels are simple, so the fabric does all the talking.\n• Motif vibe: crochet flower motifs form the signature border, worked in rounds that read like a garden along the hem and neckline. The body keeps a calm, even stitch so the flowers stay the star.\n• Length: a versatile hip-to-mid-thigh drape (exact measurements per size are in the PDF), with notes for cropping it shorter or adding length.\n• Warmth: worsted yarn gives a fabric that is cozy without being bulky — it layers over a sweater and still moves.\n\nIt is the kind of piece that looks handmade in the best way: colorful enough to gift, classic enough to wear every week of winter.'
+      },
+      {
+        id: 'skill-level',
+        title: 'Skill Level and Stitches Used (Beginner-Friendly, US Terms)',
+        content:
+          'Level: beginner. If you have finished a scarf and can count stitches across a row, you can make this poncho.\n\nEverything is written in US crochet terms with a stitch abbreviation key in the PDF:\n\n• Chain (ch) — starting chains and turning chains.\n• Single crochet (sc) — firm edges and joins.\n• Double crochet (dc) — the classic granny stitch that builds the motif rounds.\n• Slip stitch (sl st) — joining rounds and seaming motifs.\n• Magic ring (or chain loop) — starting each flower motif cleanly, with no hole at the center.\n\nNo garment shaping, no short rows, no colourwork charts. The only “advanced” skill is consistency: making each motif the same size, which is exactly what the gauge section below teaches.'
+      },
+      {
+        id: 'sizing',
+        title: 'Sizing Overview: XS/M, L/2XL, and 3XL/5XL — And How to Choose Ease',
+        content:
+          'The pattern is written in three size bands to keep the instructions readable:\n\n• XS/M — petite to medium frames, or a closer drape.\n• L/2XL — a comfortable everyday fit for medium to large frames.\n• 3XL/5XL — generous coverage with room to move.\n\nTwo decisions pick your size. First, how you want it to sit: a poncho should have positive ease — the fabric needs to float over your shoulders rather than grip them. Aim for roughly 4–10 in (10–25 cm) beyond your actual shoulder/chest measurement, depending on how dramatic you like the drape.\n\nSecond, length: measure from the base of your neck to where you want the hem (hip is the classic choice). Between sizes? Choose the band that gives you the length you want, then let the width drape — ponchos are far more forgiving than fitted sweaters. Our earlier [crochet sweater outfit](/blog/easy-crochet-sweater-pattern-free) guide covers the same ease-thinking if you like numbers before you start.',
+        table: {
+          headers: ['Size Band', 'Best For', 'Ease Guidance', 'Length Tip'],
+          rows: [
+            ['XS/M', 'Petite–medium frames', '4–6 in (10–15 cm) positive ease', 'Great at hip length'],
+            ['L/2XL', 'Everyday adult fit', '6–8 in (15–20 cm) positive ease', 'Mid-hip to upper thigh'],
+            ['3XL/5XL', 'Generous coverage', '8–10 in (20–25 cm) positive ease', 'Add a motif round for coverage']
+          ],
+          caption:
+            'Guidance only — confirm against your own measurements and the sizing notes in the PDF.'
+        }
+      },
+      {
+        id: 'materials',
+        title: 'Materials Checklist',
+        content:
+          'A short list, all easy to find:\n\n• Yarn: worsted weight (#4) in your main colour plus one or two contrast colours for the flower motifs — roughly 800–1,200 yards (730–1,100 m) depending on size and length. A soft acrylic or wool blend washes well and keeps the drape.\n• Hook: 5.0 mm (US H/8) for the body, plus the hook that gives you the correct motif size (often the same one).\n• Notions: tapestry needle, scissors, 4–6 stitch markers, a soft tape measure, and a row counter for motif rounds.\n• Optional: stitch dictionary for the edging, a crochet hook for weaving, and blocking mats for finishing.\n\nBuy all yarn from one dye lot if you are using a solid, and keep one extra skein — motif borders love to use more yarn than expected.'
+      },
+      {
+        id: 'gauge',
+        title: 'Gauge and Motif Sizing: Why Blocking Matters',
+        content:
+          'In a poncho, your gauge swatch has a twin: the motif. The finished piece is only as straight as the smallest motif in the pile.\n\nMake one complete motif, steam block it, and measure it flat in both directions. That number is your unit — the body length and border width are calculated from it. If your motifs vary by even 0.25 in (0.5 cm), the difference multiplies across a row of them and the edge waves.\n\nBlocking is not optional here. A pinned, steamed motif opens up, lies flat, and matches its neighbours; an unblocked one curls and shrinks as you join. Plan to block every motif before assembly — it takes an evening and saves the whole project.\n\nFor the body fabric, check gauge with a small swatch too: crochet a 6 in (15 cm) square, block it, and measure stitches per inch. Too loose? Drop half a hook size. Too tight? Go up.'
+      },
+      {
+        id: 'construction',
+        title: 'How It’s Constructed (High-Level Overview)',
+        content:
+          'The poncho builds in four calm stages — no surprises, no seaming-in-the-dark:\n\n1. Motifs: crochet the flower motifs for the border (and any accent panels), then block each one to size.\n2. Join: lay the motifs out in their final arrangement, pin them, and join them with slip stitches or a needle join so the flowers line up.\n3. Body shaping: work the main panels from the joined border upward (or downward, depending on the section), keeping even tension. The neckline is shaped with simple decreases — no short rows.\n4. Edging and drawstring: finish with a clean edging round at the neck and a simple drawstring or tie so the poncho sits where you want it.\n\nThat is the whole architecture. The PDF fills in the counts for each size, the motif layout, and the finishing checklist.'
+      },
+      {
+        id: 'outfit-ideas',
+        title: 'Crochet Poncho Outfit Ideas: 5 Styling Formulas',
+        content:
+          'A poncho is a wardrobe multiplier — one piece, several looks. Here are five formulas we keep coming back to:\n\n1. The market run: fitted jeans, ankle boots, and the poncho over a plain tee. Let the motifs do the talking.\n2. Belted and polished: add a slim belt over the poncho at the waist for a peplum-like shape — instantly office-friendly over tailored trousers.\n3. Dress layer: wear it over a simple knit dress with knee-high boots for an easy crochet poncho outfit that reads dressed-up without effort.\n4. Cozy weekend: hoodie underneath, leggings, and slippers. The poncho becomes the warm layer you never take off.\n5. Gift-ready classic: pair a neutral poncho with a chunky scarf for a set you can hand to anyone on your list.\n\nWant more handmade layering? Our [crochet sweater outfit](/blog/easy-crochet-sweater-pattern-free) planning guide pairs well with this one, and there is always more on the [blog](/blog).'
+      },
+      {
+        id: 'mistakes',
+        title: 'Common Mistakes and Quick Fixes',
+        content:
+          'Most poncho problems come from four places — catch them early and the finish looks professional:\n\n• Motif size inconsistency: fix it at the source — block every motif to one template and check it before joining. Make a spare motif for insurance.\n• Neckline too tight: the classic complaint. Keep the foundation chain relaxed, or work the neck edging with one hook size larger so it stretches over your head. Try it on before the final round.\n• Uneven arches along the border: arches go wonky when stitch counts drift. Count each motif round out loud once, and use a stitch marker in the first stitch so joins stay invisible.\n• Joining tips: join motifs flat on a table, right sides up, in the layout you photographed. Support the weight of the piece while seaming — letting it hang stretches the join and wavy edges follow.\n\nA fifth one worth naming: skipping blocking. It is the single cheapest upgrade between “homemade” and “handmade”.'
+      },
+      {
+        id: 'conclusion',
+        title: 'Conclusion: Make Your Poncho This Week',
+        content:
+          'A poncho gives you a finished wearable in a weekend: simple panels, decorative flower motifs, forgiving sizing from XS/M through 3XL/5XL, and styling that works from market runs to dressy dinners. The planning above — materials, gauge, blocking, and construction order — is everything you need to start confidently tonight.\n\nWhen you want the exact motif rounds, body counts, edging, and finishing checklist, the printable PDF is ready below. And if you are still collecting projects, start small with our [free winter crochet patterns](/free-patterns), then come [back to the blog](/blog) for the next tutorial.'
+      }
+    ],
+    inArticleImages: [
+      {
+        afterSectionId: 'what-youll-make',
+        src: '/images/blog/poncho-motif-closeup.svg',
+        alt: 'Close-up illustration of a crochet flower motif border on a granny square poncho',
+        caption: 'Flower motifs form the signature border of the poncho.'
+      },
+      {
+        afterSectionId: 'gauge',
+        src: '/images/blog/poncho-sizing-gauge.svg',
+        alt: 'Diagram showing a blocked crochet motif and swatch with measurement arrows for gauge and motif sizing',
+        caption: 'Block first, then measure — one motif size drives the whole layout.'
+      },
+      {
+        afterSectionId: 'outfit-ideas',
+        src: '/images/blog/poncho-outfit-ideas.svg',
+        alt: 'Styling illustration of a crochet poncho outfit layered over a dress with boots',
+        caption: 'Five simple formulas for wearing your poncho all winter.'
+      }
+    ],
+    callouts: [
+      {
+        after: 'gauge',
+        title: 'Fit Tip',
+        tone: 'rose',
+        body: 'Block one motif, measure it, and write the number down. Every length in the pattern is calculated from that single measurement — it is the most useful minute of the whole project.'
+      },
+      {
+        after: 'mistakes',
+        title: 'Common Mistake',
+        tone: 'mint',
+        body: 'Joining motifs before they are blocked. Unblocked motifs curl under the seam and pull the border out of shape; fifteen minutes with a steamer prevents a wavy hem.'
+      }
+    ],
+    ctas: [
+      {
+        after: 'quick-summary',
+        headline: 'Get the Printable Crochet Poncho Pattern (PDF)',
+        body: 'US terms • beginner-friendly • size-inclusive • clean printable layout.',
+        buttonLabel: 'Get the Poncho PDF',
+        url: PAYHIP_PONCHO_URL
+      },
+      {
+        after: 'construction',
+        headline: 'Want the full step-by-step?',
+        body: 'The PDF includes motif steps, body shaping, edging + finishing checklist.',
+        buttonLabel: 'View on Payhip',
+        url: PAYHIP_PONCHO_URL
+      },
+      {
+        after: 'end',
+        headline: 'Make your poncho this week',
+        body: 'If you want a neat printable PDF (US terms) that’s easy to follow, grab the pattern here.',
+        buttonLabel: 'Get the Pattern PDF',
+        url: PAYHIP_PONCHO_URL
+      }
+    ],
+    finishingTips: [
+      'Block the finished poncho flat so the motif border hangs straight and the neckline relaxes into shape.',
+      'Weave in ends along the motif rounds — the colour changes hide best in the stitches themselves.',
+      'Photograph your motif layout before joining; it makes the second poncho (and the gift version) much faster.'
+    ],
+    faqs: [
+      {
+        q: 'Is this crochet poncho pattern beginner-friendly?',
+        a: 'Yes. It uses chains, single crochet, double crochet, slip stitches, and a magic ring — all basic stitches. There is no set-in shaping and no sleeve fitting, so the only skill to build is making consistent motifs, which the gauge section walks you through.'
+      },
+      {
+        q: 'What yarn works best for a poncho?',
+        a: 'Worsted weight (#4) is the sweet spot: warm, fast to work, and with enough drape to move. A soft acrylic is easy-care and budget friendly; a wool or wool blend is warmer and blooms nicely after blocking. Buy from one dye lot and keep an extra skein for the motif border.'
+      },
+      {
+        q: 'How much yarn do I need?',
+        a: 'Plan for roughly 800–1,200 yards (730–1,100 m) total depending on your size band and length, split between the main colour and your contrast motif colours. The PDF lists quantities per size so you can shop accurately.'
+      },
+      {
+        q: 'What hook size should I use?',
+        a: 'A 5.0 mm (US H/8) hook suits worsted yarn for the body. For the motifs, use whatever hook gives you the correct blocked motif size — if your motifs come out small, go up half a hook size rather than changing your tension.'
+      },
+      {
+        q: 'Can I resize the poncho or change the length?',
+        a: 'Yes. The size bands (XS/M, L/2XL, 3XL/5XL) cover the main range, and length is adjusted by adding or removing plain rows — no shaping required. A shorter crop is fewer rows; a longer, dressier hem is a few more.'
+      },
+      {
+        q: 'How do I keep my motifs the same size?',
+        a: 'Make one test motif, steam block it, and measure it. Then block every motif to that size before joining, using a template or pinning mat. Consistency comes from blocking, not from trying to crochet identically every time.'
+      },
+      {
+        q: 'How do I wash the finished poncho?',
+        a: 'Hand wash or use a gentle machine cycle in cool water with mild detergent, then lay flat to dry. Always wash your swatch first so you know how the fabric behaves. Avoid wringing — squeeze gently and roll it in a towel to remove excess water.'
+      },
+      {
+        q: 'How does printing the PDF work?',
+        a: 'Purchase on Payhip, download the file, and print at home on Letter or A4. The layout is printer-friendly with wide margins, and you can print the size chart and your size’s section only to save ink — many crocheters keep just the motif and edging pages by the chair.'
+      },
+      {
+        q: 'Can I sell the finished ponchos?',
+        a: 'You are welcome to sell finished handmade items. Please do not resell or redistribute the digital PDF pattern file itself. See the terms page for full license details.'
       }
     ]
   }
