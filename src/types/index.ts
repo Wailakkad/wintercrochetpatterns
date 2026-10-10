@@ -29,6 +29,50 @@ export interface Pattern {
   finishedDimensions: string;
 }
 
+/** Paid product sold via Payhip (store). */
+export interface Product {
+  slug: string;
+  title: string;
+  category: string;
+  /** Price in US dollars (e.g. 12.99). */
+  price: number;
+  /** Original-size Cloudinary image URL (displayed uncropped). */
+  image: string;
+  /** Payhip checkout URL. */
+  payhipUrl: string;
+  /** Short description used on cards and the hero block. */
+  shortDescription: string;
+  whatYoullMake: string[];
+  highlights?: string[];
+  includesTitle?: string;
+  includes: string[];
+  skillLevel: string;
+  sizing?: string;
+  sizingTable?: { headers: string[]; rows: string[][] };
+  materials?: string[];
+  format?: string[];
+  downloadNote?: string;
+  license?: string;
+  closingLine?: string;
+  /** Alternating visual value sections (model / finished-project shots). */
+  showcase?: ProductShowcase[];
+  /** SEO meta description for the landing page. */
+  seoDescription: string;
+}
+
+/** Alternating image + copy row on a product landing page. */
+export interface ProductShowcase {
+  /** 'image-right' → text on the left, image on the right (desktop). */
+  layout: 'image-right' | 'image-left';
+  /** Small uppercase eyebrow above the heading. */
+  label: string;
+  title: string;
+  description: string;
+  points?: string[];
+  /** One or more original-size images (displayed uncropped). */
+  images: string[];
+}
+
 /** Simple data table rendered inside a section (e.g. sizing guidance). */
 export interface BlogPostTable {
   caption?: string;

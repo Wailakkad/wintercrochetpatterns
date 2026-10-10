@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="mt-20 border-t border-rose-100 bg-[#FFF7EF]/50">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-5">
           {/* Brand bio */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2.5">
@@ -72,6 +72,35 @@ export const Footer: React.FC = () => {
               <li>
                 <Link to="/free-patterns" className="font-medium text-[#7A3E55] hover:underline">
                   View All Patterns →
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Shop */}
+          <div>
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7A3E55]">
+              Shop
+            </h4>
+            <ul className="mt-3 space-y-2 text-sm text-slate-600">
+              <li>
+                <Link to="/store/crochet-sweater-jacket-pattern" className="hover:text-[#7A3E55] transition-colors">
+                  Sweater Jacket Pattern
+                </Link>
+              </li>
+              <li>
+                <Link to="/store/top-down-crochet-sweater-pattern" className="hover:text-[#7A3E55] transition-colors">
+                  Top Down Sweater Pattern
+                </Link>
+              </li>
+              <li>
+                <Link to="/store/flower-power-granny-poncho-pattern" className="hover:text-[#7A3E55] transition-colors">
+                  Flower Power Poncho
+                </Link>
+              </li>
+              <li>
+                <Link to="/store" className="font-medium text-[#7A3E55] hover:underline">
+                  Visit the Store →
                 </Link>
               </li>
             </ul>

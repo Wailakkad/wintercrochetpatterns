@@ -14,6 +14,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenStarterPack }) => {
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Free Patterns', href: '/free-patterns' },
+    { label: 'Store', href: '/store' },
     { label: 'Blog', href: '/blog' },
     { label: 'About', href: '/about' }
   ];

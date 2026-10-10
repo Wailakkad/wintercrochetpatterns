@@ -10,6 +10,8 @@ import { YarnBallIcon } from './components/icons';
 const Home = lazy(() => import('./pages/Home').then(m => ({ default: m.Home })));
 const About = lazy(() => import('./pages/About').then(m => ({ default: m.About })));
 const FreePatterns = lazy(() => import('./pages/FreePatterns').then(m => ({ default: m.FreePatterns })));
+const Store = lazy(() => import('./pages/Store').then(m => ({ default: m.Store })));
+const ProductDetail = lazy(() => import('./pages/ProductDetail').then(m => ({ default: m.ProductDetail })));
 const PatternDetail = lazy(() => import('./pages/PatternDetail').then(m => ({ default: m.PatternDetail })));
 const Blog = lazy(() => import('./pages/Blog').then(m => ({ default: m.Blog })));
 const BlogPostDetail = lazy(() => import('./pages/BlogPostDetail').then(m => ({ default: m.BlogPostDetail })));
@@ -60,6 +62,8 @@ export default function App() {
                 <Route path="/" element={<Home onOpenStarterPack={() => setIsStarterPackOpen(true)} />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/free-patterns" element={<FreePatterns />} />
+                <Route path="/store" element={<Store />} />
+                <Route path="/store/:slug" element={<ProductDetail />} />
                 <Route path="/patterns/:slug" element={<PatternDetail />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/blog/:slug" element={<BlogPostDetail />} />
