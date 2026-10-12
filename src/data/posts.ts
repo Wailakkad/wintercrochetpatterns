@@ -559,7 +559,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'Easy crochet fingerless gloves free pattern in US crochet terms: beginner-friendly ribbed cuffs, simple rounds, and a chain-skip thumb opening, with sizing in inches and cm.',
     date: 'October 1, 2026',
     readingTime: '8 min read',
-    coverImage: '/images/blog/free-fingerless-gloves-hero.svg',
+    coverImage: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1791798751/Crochet_Fingerless_Gloves_HERO_IMAGE.jpg',
     category: 'Gloves',
     author: {
       name: 'Emma Lindqvist',
@@ -662,13 +662,13 @@ export const BLOG_POSTS: BlogPost[] = [
     inArticleImages: [
       {
         afterSectionId: 'sizing',
-        src: '/images/blog/free-fingerless-gloves-sizing.svg',
+        src: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1791798752/Crochet_Fingerless_Gloves_SECOND_IMAGE.jpg',
         alt: 'Where to measure wrist circumference, palm circumference and hand length for fingerless gloves',
         caption: 'Three numbers — wrist, palm, length — are all you need for a good fit.'
       },
       {
         afterSectionId: 'free-pattern-steps',
-        src: '/images/blog/free-fingerless-gloves-steps.svg',
+        src: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1791798749/Crochet_Fingerless_Gloves_last_image.jpg',
         alt: 'Step-by-step overview of the free crochet fingerless gloves pattern: cuff, join, rounds, thumb opening',
         caption: 'Five steps: cuff, join, rounds, thumb opening, finish.'
       }
