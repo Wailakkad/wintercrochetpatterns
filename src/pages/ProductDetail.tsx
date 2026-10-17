@@ -33,7 +33,7 @@ export const ProductDetail: React.FC = () => {
   const related = PRODUCTS.filter((p) => p.slug !== product.slug);
   const buyUrl = product.payhipUrl;
 
-  const faqs = [
+  const defaultFaqs = [
     {
       question: 'Is this a physical product?',
       answer:
@@ -55,6 +55,13 @@ export const ProductDetail: React.FC = () => {
         'You’re never on your own — email us anytime at hello@wintercrochetpatterns.com and we’ll help you pick the right size, yarn, or step.'
     }
   ];
+
+  const faqs = product.faqs
+    ? [
+        ...product.faqs,
+        ...defaultFaqs.filter((f) => !product.faqs?.some((p) => p.question === f.question))
+      ]
+    : defaultFaqs;
 
   return (
     <div className="py-8 sm:py-12">

@@ -56,6 +56,8 @@ export interface Product {
   closingLine?: string;
   /** Alternating visual value sections (model / finished-project shots). */
   showcase?: ProductShowcase[];
+  /** Product-specific FAQ entries (rendered above the shop-wide defaults). */
+  faqs?: { question: string; answer: string }[];
   /** SEO meta description for the landing page. */
   seoDescription: string;
 }

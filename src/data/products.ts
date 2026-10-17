@@ -227,6 +227,111 @@ export const PRODUCTS: Product[] = [
     ],
     seoDescription:
       'Flower Power Granny Poncho crochet pattern PDF (US terms). Beginner-friendly, size-inclusive XS\u20135XL with motif steps, neckline shaping & edging. Instant download. $6.99.'
+  },
+  {
+    slug: 'crochet-bow-headband-pattern-pdf',
+    title: 'Crochet Bow Headband Pattern PDF | Easy Ribbed Ear Warmer',
+    category: 'Headband',
+    price: 3.99,
+    // Cloudinary image displayed at its original (uncropped) size, like the other products.
+    image: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1792268612/crochet_headband_hero_img.jpg',
+    payhipUrl: 'https://payhip.com/b/4h7xA',
+    shortDescription:
+      'Create a cozy, stylish crochet headband with a beautiful bow detail! This ribbed ear warmer is beginner-friendly, customizable, and includes step-by-step photos.',
+    whatYoullMake: [
+      'A cozy ribbed crochet headband with an elegant gathered bow detail',
+      'A custom-fit ear warmer (or handmade gift) written in easy US crochet terms'
+    ],
+    highlights: [
+      'Beautiful ribbed crochet texture',
+      'Elegant gathered bow detail',
+      'Simple half double crochet stitch pattern',
+      'Customizable width and length',
+      'Step-by-step instructions with real crochet photographs',
+      'Cozy accessory for fall and winter',
+      'Perfect for handmade gifts',
+      'Instant digital PDF download'
+    ],
+    includesTitle: "What's Included (11-Page PDF)",
+    includes: [
+      'Materials + hook info (6.0 mm, medium/worsted weight)',
+      'Crochet abbreviations (US terms)',
+      'Foundation chain instructions',
+      'Step-by-step half double crochet guidance',
+      'Back-loop-only ribbing instructions',
+      'Headband sizing + customization tips',
+      'Joining instructions',
+      'Detailed bow shaping + assembly',
+      'Real step-by-step reference photographs',
+      'Finished-project inspiration'
+    ],
+    skillLevel:
+      'Easy / Adventurous Beginner (ch, hdc, back-loop-only crochet, sc \u2014 plus basic sewing & gathering)',
+    sizing:
+      'Width: ~9 cm (3.5 in) \u00b7 Length: ~50 cm (19.7 in) before joining. Adjust foundation stitches for width; add or remove rows for length \u2014 sizing is fully customizable.',
+    materials: [
+      'Medium-weight / worsted / Aran yarn (approx. 200 m per 100 g)',
+      '6.0 mm crochet hook',
+      'Scissors',
+      'Sewing needle'
+    ],
+    format: ['Digital download (PDF)', '11 pages, English, US crochet terms'],
+    downloadNote:
+      'This listing is for a digital crochet pattern PDF only. No physical item is shipped \u2014 after purchase, you receive access to the downloadable 11-page PDF.',
+    license: 'For personal use only. Please do not copy, redistribute, or resell the PDF.',
+    closingLine:
+      'Ready to crochet your easy ribbed bow headband? Buy now and download the 11-page PDF instantly.',
+    showcase: [
+      {
+        layout: 'image-right',
+        label: 'The Finished Look',
+        title: 'A Cozy Ribbed Crochet Headband With a Beautiful Bow',
+        description:
+          'Elegant back-loop-only ribbing gives this ear warmer its stretchy, textured fit, while a simple gathered bow adds a boutique-worthy detail at the side. It\u2019s the kind of accessory people ask about the moment you wear it \u2014 and it works up fast enough to make in an evening.',
+        points: [
+          'Stretchy BLO ribbing that sits snug without being tight',
+          'Gathered bow detail with photo-guided shaping + assembly',
+          'A cozy fall/winter accessory that makes a perfect handmade gift'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1792268612/The_Finished_Look_img.jpg'
+        ]
+      },
+      {
+        layout: 'image-left',
+        label: 'A Pattern You\u2019ll Enjoy Following',
+        title: 'An 11-Page PDF With Real Step-by-Step Photos',
+        description:
+          'Every stage of this crochet headband pattern is photographed and written in plain US terms: materials, abbreviations, foundation chain, half double crochet ribbing, joining, and bow assembly. Print it once and keep it at your hook\u2019s side while you crochet.',
+        points: [
+          '11 printable pages \u2014 clean layout, no endless scrolling',
+          'Real reference photographs for every major step',
+          'Sizing + customization tips so it fits every head'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1792268612/A_Pattern_You_ll_Enjoy_Following_img.jpg'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is this a physical headband?',
+        answer:
+          'No \u2014 this listing is for a digital PDF pattern only. Nothing is shipped; right after purchase you get instant access to download the 11-page crochet headband pattern.'
+      },
+      {
+        question: 'Can I resize it?',
+        answer:
+          'Yes! Both the width and length are customizable \u2014 adjust your foundation chain stitches for width, and add or remove ribbing rows for length.'
+      },
+      {
+        question: 'Is it beginner-friendly?',
+        answer:
+          'Yes. The ear warmer uses half double crochet worked in the back loops for simple ribbing, with step-by-step photos throughout \u2014 perfect for an easy / adventurous beginner.'
+      }
+    ],
+    seoDescription:
+      'Create a cozy ribbed crochet headband with a gathered bow. Easy beginner-friendly pattern with step-by-step photos, custom sizing, and instant PDF download.'
   }
 ];
 
