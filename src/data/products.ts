@@ -332,6 +332,106 @@ export const PRODUCTS: Product[] = [
     ],
     seoDescription:
       'Create a cozy ribbed crochet headband with a gathered bow. Easy beginner-friendly pattern with step-by-step photos, custom sizing, and instant PDF download.'
+  },
+  {
+    slug: 'fingerless-gloves-crochet-pattern',
+    title:
+      'Fingerless Gloves Crochet Pattern PDF (US Terms) \u2013 Beginner-Friendly Winter Gloves',
+    category: 'Gloves',
+    price: 4.99,
+    image:
+      'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793117745/section1heroimg.jpg',
+    payhipUrl: 'https://payhip.com/b/ZtGeJ',
+    shortDescription:
+      'Make cozy fingerless gloves you\u2019ll actually wear. This Fingerless Gloves Crochet Pattern (PDF) is written in US crochet terms with step-by-step photos, clear stitch counts, and fit tips\u2014perfect for winter gifting and everyday warmth.',
+    whatYoullMake: [
+      'A pair of cozy fingerless gloves that keep your hands warm while your fingers stay free',
+      'A quick, satisfying winter project \u2014 ideal for gifting or a weekend treat for yourself'
+    ],
+    highlights: [
+      'Beginner-friendly with step-by-step photo support',
+      'US crochet terms with clear round notes + stitch counts',
+      'Fit check + adjustment tips so the gloves sit comfortably',
+      'Works up fast \u2014 perfect for last-minute winter gifts',
+      'Printable PDF with a clean layout (no endless scrolling)'
+    ],
+    includesTitle: "What's Included in the PDF",
+    includes: [
+      'Printable PDF pattern (US crochet terms)',
+      'Step-by-step photo instructions (easy to follow)',
+      'Clear round notes + stitch counts',
+      'Fit check + adjustment tips for a comfortable, custom fit',
+      'Finishing instructions + weave-in tips'
+    ],
+    skillLevel: 'Beginner-Friendly / Easy (with photo support)',
+    sizing:
+      'Written to fit most adult hands with a fit check built in \u2014 measure around the widest part of your palm and adjust stitch counts if needed. Length is customizable by adding or removing rounds, so you can go shorter or longer on the wrist.',
+    materials: [
+      'Yarn (self-striping or any yarn you love)',
+      'Matching crochet hook',
+      'Scissors, tapestry needle, stitch markers'
+    ],
+    format: ['Digital download (PDF)', 'English, US crochet terms'],
+    downloadNote:
+      'This listing is for a digital PDF pattern only \u2014 no physical item is shipped. Download instantly after purchase.',
+    license: 'For personal use only. Please do not copy, redistribute, or resell the PDF.',
+    closingLine: 'Ready to crochet your own cozy fingerless gloves? Buy now and download the PDF instantly.',
+    showcase: [
+      {
+        layout: 'image-right',
+        label: 'The Finished Look',
+        title: 'Cozy Winter Gloves That Keep Your Fingers Free',
+        description:
+          'These fingerless gloves are the layer you reach for all season \u2014 warm over the wrist and palm, open at the fingers so you can type, text, and sip your coffee without ever taking them off. They work up quickly in any yarn you love, which makes them as fun to crochet as they are to wear.',
+        points: [
+          'Warmth where you need it, freedom where you don\u2019t',
+          'Customizable length \u2014 shorter wrist or extra coverage',
+          'A handmade gift that actually gets worn'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793117745/fnishedlook_image.jpg'
+        ]
+      },
+      {
+        layout: 'image-left',
+        label: 'A Pattern You\u2019ll Enjoy Following',
+        title: 'Photo-Guided Steps + Fit Checks at Every Stage',
+        description:
+          'Every round is written with clear notes and stitch counts, and the photos walk you through each stage \u2014 from the foundation to the finger openings and final edging. A fit check lets you try the glove on as you go and adjust before you bind off, so the finished pair sits right the first time.',
+        points: [
+          'Step-by-step photos for every major stage',
+          'Clear round notes + stitch counts (no guesswork)',
+          'Fit check + adjustment tips before you finish'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793117848/patterns_image.jpg'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is this a physical pair of gloves?',
+        answer:
+          'No \u2014 this listing is for a digital PDF pattern only. Nothing is shipped; right after purchase you get instant access to download the fingerless gloves pattern.'
+      },
+      {
+        question: 'Is it beginner-friendly?',
+        answer:
+          'Yes. The pattern is written for beginners and easy crocheters, with step-by-step photos, clear round notes, and stitch counts throughout \u2014 plus fit tips so your first pair turns out right.'
+      },
+      {
+        question: 'Can I adjust the size?',
+        answer:
+          'Yes. A fit check is built into the pattern so you can try the glove on as you go and adjust the fit, and the length is customizable by adding or removing rounds.'
+      },
+      {
+        question: 'What yarn should I use?',
+        answer:
+          'The pattern works with self-striping yarn or any yarn you love \u2014 just match your hook to the yarn weight. The materials page inside the PDF has the full details.'
+      }
+    ],
+    seoDescription:
+      'Beginner-friendly fingerless gloves crochet pattern PDF (US terms) with step-by-step photos, clear stitch counts & fit tips. Instant download, printable. $4.99.'
   }
 ];
 

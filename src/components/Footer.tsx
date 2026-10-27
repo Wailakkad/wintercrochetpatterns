@@ -99,6 +99,11 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/store/fingerless-gloves-crochet-pattern" className="hover:text-[#7A3E55] transition-colors">
+                  Fingerless Gloves Pattern
+                </Link>
+              </li>
+              <li>
                 <Link to="/store" className="font-medium text-[#7A3E55] hover:underline">
                   Visit the Store →
                 </Link>
