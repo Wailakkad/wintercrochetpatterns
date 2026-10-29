@@ -104,6 +104,11 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/store/granny-square-baby-bonnet-pattern" className="hover:text-[#7A3E55] transition-colors">
+                  Granny Square Baby Bonnet
+                </Link>
+              </li>
+              <li>
                 <Link to="/store" className="font-medium text-[#7A3E55] hover:underline">
                   Visit the Store →
                 </Link>

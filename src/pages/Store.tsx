@@ -10,7 +10,7 @@ export const Store: React.FC = () => {
     <div className="py-10 sm:py-14">
       <SEO
         title="Store — Premium Crochet Pattern PDFs"
-        description="Shop premium beginner-friendly crochet pattern PDFs: an upcycled denim sweater jacket with granny flower sleeves, a size-inclusive top-down pullover (XS–5XL), a Flower Power granny poncho, an easy ribbed crochet bow headband, and beginner-friendly fingerless winter gloves. Instant digital download, secure Payhip checkout."
+        description="Shop premium beginner-friendly crochet pattern PDFs: a granny square baby bonnet, an upcycled denim sweater jacket with granny flower sleeves, a size-inclusive top-down pullover (XS–5XL), a Flower Power granny poncho, an easy ribbed crochet bow headband, and beginner-friendly fingerless winter gloves. Instant digital download, secure Payhip checkout."
         ogImage={PRODUCTS[0].image}
       />
 

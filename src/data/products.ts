@@ -432,6 +432,110 @@ export const PRODUCTS: Product[] = [
     ],
     seoDescription:
       'Beginner-friendly fingerless gloves crochet pattern PDF (US terms) with step-by-step photos, clear stitch counts & fit tips. Instant download, printable. $4.99.'
+  },
+  {
+    slug: 'granny-square-baby-bonnet-pattern',
+    title:
+      'Crochet Granny Square Baby Bonnet Pattern (PDF) \u2013 Easy Baby Hat Crochet Pattern (US Terms)',
+    category: 'Baby Bonnet',
+    price: 3.99,
+    image:
+      'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793278972/Hero_top_of_landing_page_store_card.jpg',
+    payhipUrl: 'https://payhip.com/b/yChU7',
+    shortDescription:
+      'Create a timeless crochet granny square baby bonnet with a modern, cozy look. This Baby Hat Crochet Pattern PDF walks you through making the granny square bonnet, adding edging, and finishing with ties\u2014perfect for baby gifts, photos, and everyday wear.',
+    whatYoullMake: [
+      'A crochet granny square baby bonnet (hat) with ties',
+      'A sweet, classic texture using a granny-square style motif'
+    ],
+    highlights: [
+      'Timeless granny-square motif with a modern, cozy silhouette',
+      'Two included sizes: 6\u201312 months and 18\u201324 months',
+      'Edging + tie finishing steps included',
+      'Photo support pages for confidence while you crochet',
+      'Printable PDF with a clean layout (no endless scrolling)',
+      'A sweet handmade baby gift that works up quickly'
+    ],
+    includesTitle: "What's Included (PDF)",
+    includes: [
+      'Printable PDF in US crochet terms',
+      'Written instructions with clear structure',
+      'Stitch chart(s) + stitch key',
+      'Finishing + edging steps',
+      'Photo support pages (great for confidence while you crochet)'
+    ],
+    skillLevel: 'Easy / Confident Beginner',
+    sizing:
+      'Designed to fit 6\u201312 months and 18\u201324 months. Your PDF includes the stitch counts and adjustments shown for both included sizes.',
+    materials: [
+      'Medium-weight yarn in a 4\u2011color palette (A/B/C/D)',
+      'Crochet hook US G/6 (4.0 mm) (or size needed to meet gauge)',
+      'Yarn needle, scissors'
+    ],
+    format: ['Digital download (PDF)', 'English, US crochet terms'],
+    downloadNote:
+      'This is a digital product. After purchase, you\u2019ll get immediate access to download the PDF\u2014no physical item shipped.',
+    license:
+      'For personal use only. Please do not copy, redistribute, or resell the pattern.',
+    closingLine:
+      'Ready to crochet a timeless granny square baby bonnet? Buy now and download the PDF instantly.',
+    showcase: [
+      {
+        layout: 'image-right',
+        label: 'The Finished Look',
+        title: 'A Timeless Granny Square Bonnet With a Modern, Cozy Feel',
+        description:
+          'Classic granny-square texture shaped into a sweet baby bonnet, finished with soft edging and neat ties. It\u2019s the kind of handmade piece that photographs beautifully and gets worn every day\u2014for baby gifts, milestone photos, or keeping little ears cozy.',
+        points: [
+          'Granny-square style motif worked in a 4\u2011color palette',
+          'Clean edging that frames baby\u2019s face',
+          'Ties for a secure, comfortable fit'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793278974/Showcase_1_The_Finished_Look_flat_lay_with_tools.jpg'
+        ]
+      },
+      {
+        layout: 'image-left',
+        label: 'A Pattern You\u2019ll Enjoy Following',
+        title: 'Written Steps, Stitch Charts + Photo Support Pages',
+        description:
+          'Everything is organized so you can crochet with confidence: clear written instructions in US terms, stitch chart(s) with a stitch key, edging and finishing steps, and photo support pages for each stage. Print it once and keep it at your hook\u2019s side.',
+        points: [
+          'Printable US-terms PDF with a clean, structured layout',
+          'Stitch chart(s) + stitch key included',
+          'Size adjustments for 6\u201312 months and 18\u201324 months'
+        ],
+        images: [
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793278970/Left_tile_Written_Steps_Stitch_Charts_printed_pages_preview.jpg',
+          'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793278973/Right_tile_Size_comparison_two_bonnets_measuring_tape.jpg'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'How difficult is this bonnet pattern?',
+        answer:
+          'It\u2019s written for an easy / confident beginner \u2014 if you can crochet a granny square and work basic stitches, you can make this bonnet. Written steps, stitch charts, and photo support pages guide you through edging and ties.'
+      },
+      {
+        question: 'What sizes are included?',
+        answer:
+          'Two sizes are included: 6\u201312 months and 18\u201324 months. The PDF shows the stitch counts and adjustments for each size so you can pick the right fit before you start.'
+      },
+      {
+        question: 'What yarn and hook do I need?',
+        answer:
+          'Medium-weight yarn in a 4\u2011color palette (A/B/C/D) and a US G/6 (4.0 mm) crochet hook, or whatever size helps you meet gauge. You\u2019ll also want a yarn needle and scissors.'
+      },
+      {
+        question: 'Can I sell or gift the bonnets I make?',
+        answer:
+          'You\u2019re welcome to gift (or sell) the finished bonnets you crochet. The pattern PDF itself is for personal use only \u2014 please don\u2019t copy, redistribute, or resell the pattern.'
+      }
+    ],
+    seoDescription:
+      'Easy granny square baby bonnet crochet pattern PDF (US terms) with stitch charts, photo support & edging steps. Sizes 6\u201312 and 18\u201324 months. Instant download. $3.99.'
   }
 ];
 
