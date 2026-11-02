@@ -24,7 +24,7 @@ export const FreePatterns: React.FC = () => {
     if (cat) setSelectedCategory(cat);
   }, [searchParams]);
 
-  const categories = ['All', 'Baby Hat', 'Cardigan', 'Headband', 'Gloves'];
+  const categories = ['All', 'Baby Hat', 'Granny Square', 'Cardigan', 'Headband', 'Gloves'];
   const difficulties = ['All', 'Beginner', 'Easy', 'Intermediate'];
   const timeCategories = ['All', '< 2 hrs', '2-4 hrs', '4+ hrs'];
 
@@ -64,7 +64,7 @@ export const FreePatterns: React.FC = () => {
     <div className="py-10 sm:py-14">
       <SEO
         title="Free Crochet Patterns (PDF) — Winter Collection"
-        description="Browse our library of free printable crochet patterns: an easy baby beanie, a granny square cardigan, a textured earwarmer, and cozy fingerless gloves. Clean instant PDF downloads."
+        description="Browse our library of free printable crochet patterns: a granny square sampler, an easy baby beanie, a granny square cardigan, a textured earwarmer, and cozy fingerless gloves. Clean instant PDF downloads."
       />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

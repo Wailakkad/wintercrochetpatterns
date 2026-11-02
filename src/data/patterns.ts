@@ -14,6 +14,40 @@ import { Pattern } from '../types';
  */
 export const PATTERNS: Pattern[] = [
   {
+    slug: 'granny-square-sampler-pattern',
+    title: 'Granny Square Sampler (Free PDF)',
+    category: 'Granny Square',
+    difficulty: 'Beginner',
+    time: '1–2 hours',
+    timeCategory: '< 2 hrs',
+    excerpt:
+      'The signature 4-color granny square behind our baby bonnet—free. A standalone mini-project you can finish in an afternoon.',
+    description:
+      'Download the free granny square sampler PDF and learn the signature multi-color motif behind our trending Crochet Granny Square Baby Bonnet. This boutique-grade, US-terms guide walks you through the Navy, Pool Green, Terracotta, and Cream color sequence with crystal-clear step-by-step instructions in a printer-friendly A4 format—plus a complete mini-project you can finish in an afternoon as a stylish coaster or motif component.',
+    materials: [
+      'DK / Worsted weight (#3/#4) yarn in 4 colors (Navy, Pool Green, Terracotta, Cream)',
+      '4.0 mm crochet hook (US G/6)',
+      'Tapestry needle',
+      'Scissors',
+      'Stitch marker'
+    ],
+    sizes: 'One standalone sampler square (finished measurements listed in the PDF)',
+    stitches: ['Chain (ch)', 'Slip Stitch (sl st)', 'Single Crochet (sc)', 'Double Crochet (dc)', 'Granny Cluster'],
+    pdfUrl: '/pdfs/free-granny-square-sampler-pattern.pdf',
+    imageUrl:
+      'https://res.cloudinary.com/dhkyla1rv/image/upload/v1793278974/Showcase_1_The_Finished_Look_flat_lay_with_tools.jpg',
+    relatedSlugs: ['easy-cute-baby-beanie', 'cardigan-with-granny-squares', 'fingerless-gloves'],
+    hookSize: '4.0 mm (US G/6)',
+    yarnWeight: 'DK / Worsted #3–4',
+    gauge: 'See PDF for the target gauge of the sampler square',
+    skillPointers: [
+      'Work your color changes at the end of the round so every transition stays crisp and even.',
+      'Keep all four colors in the same yarn weight so the square lies flat without puckering.',
+      'Block the finished square to size before using it as a coaster or joining it into a larger motif.'
+    ],
+    finishedDimensions: 'Finished square measurements are listed in the free PDF.'
+  },
+  {
     slug: 'easy-cute-baby-beanie',
     title: 'Easy and Cute Baby Beanie',
     category: 'Baby Hat',

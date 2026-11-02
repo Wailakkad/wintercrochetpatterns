@@ -541,3 +541,15 @@ export const PRODUCTS: Product[] = [
 
 export const getProduct = (slug?: string): Product | undefined =>
   PRODUCTS.find((p) => p.slug === slug);
+
+/**
+ * Shared value-stack bullets for every in-site upsell module that promotes
+ * the Granny Square Baby Bonnet pattern (free pattern pages -> paid product).
+ */
+export const BONNET_UPSELL_PERKS = [
+  'Complete sizing instructions for 6/12 and 18/24 Months.',
+  'Seamless assembly and professional whipstitch seaming techniques.',
+  'Step-by-step guidance for the unique Bottom Edging and Front Edging rows.',
+  'Instructions for crafting sturdy, beautiful braided/chained ties.',
+  'Full technical stitch charts and visual diagrams.'
+];

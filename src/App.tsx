@@ -13,6 +13,7 @@ const FreePatterns = lazy(() => import('./pages/FreePatterns').then(m => ({ defa
 const Store = lazy(() => import('./pages/Store').then(m => ({ default: m.Store })));
 const ProductDetail = lazy(() => import('./pages/ProductDetail').then(m => ({ default: m.ProductDetail })));
 const PatternDetail = lazy(() => import('./pages/PatternDetail').then(m => ({ default: m.PatternDetail })));
+const GrannySquareSampler = lazy(() => import('./pages/GrannySquareSampler').then(m => ({ default: m.GrannySquareSampler })));
 const Blog = lazy(() => import('./pages/Blog').then(m => ({ default: m.Blog })));
 const BlogPostDetail = lazy(() => import('./pages/BlogPostDetail').then(m => ({ default: m.BlogPostDetail })));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then(m => ({ default: m.PrivacyPolicy })));
@@ -28,6 +29,16 @@ function ScrollToTop() {
   }, [pathname]);
 
   return null;
+}
+
+/**
+ * Keeps the sticky mobile download bar (Granny Square Sampler landing page)
+ * from covering the footer on small screens. Renders nothing on other routes.
+ */
+function MobileStickyBarSpacer() {
+  const { pathname } = useLocation();
+  if (pathname !== '/patterns/granny-square-sampler-pattern') return null;
+  return <div aria-hidden="true" className="h-20 shrink-0 sm:hidden" />;
 }
 
 // Fallback spinner with cute yarn ball animation
@@ -64,6 +75,7 @@ export default function App() {
                 <Route path="/free-patterns" element={<FreePatterns />} />
                 <Route path="/store" element={<Store />} />
                 <Route path="/store/:slug" element={<ProductDetail />} />
+                <Route path="/patterns/granny-square-sampler-pattern" element={<GrannySquareSampler />} />
                 <Route path="/patterns/:slug" element={<PatternDetail />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/blog/:slug" element={<BlogPostDetail />} />
@@ -73,6 +85,8 @@ export default function App() {
               </Routes>
             </Suspense>
           </main>
+
+          <MobileStickyBarSpacer />
 
           {/* Footer */}
           <Footer />

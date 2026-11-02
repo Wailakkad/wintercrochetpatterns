@@ -19,7 +19,14 @@ import {
   Share2
 } from 'lucide-react';
 import { YarnBallIcon, SheepIcon } from '../components/icons';
+import { BonnetUpsell, BonnetUpsellVariant } from '../components/BonnetUpsell';
 import { getDownloadUrl } from '../utils/downloads';
+
+/** Free pattern pages that promote the paid Granny Square Baby Bonnet product. */
+const BONNET_UPSELL_SLUGS: Record<string, BonnetUpsellVariant> = {
+  'cardigan-with-granny-squares': 'cardigan',
+  'easy-cute-baby-beanie': 'beanie'
+};
 
 export const PatternDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -29,6 +36,8 @@ export const PatternDetail: React.FC = () => {
   if (!pattern) {
     return <Navigate to="/free-patterns" replace />;
   }
+
+  const bonnetUpsellVariant = BONNET_UPSELL_SLUGS[pattern.slug];
 
   // Find matching blog tutorial if exists
   const matchingPost = BLOG_POSTS.find((post) => post.patternSlug === pattern.slug);
@@ -67,6 +76,13 @@ export const PatternDetail: React.FC = () => {
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
           <span className="font-semibold text-slate-800 truncate">{pattern.title}</span>
         </nav>
+
+        {/* Above-the-fold paid product placement — visible on page entry */}
+        {bonnetUpsellVariant && (
+          <div className="mb-8">
+            <BonnetUpsell variant={bonnetUpsellVariant} layout="banner" />
+          </div>
+        )}
 
         {/* Main Product / Pattern Block */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
@@ -217,6 +233,13 @@ export const PatternDetail: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Free -> paid funnel: exact paid bonnet product promoted in-context */}
+        {bonnetUpsellVariant && (
+          <div className="mt-14">
+            <BonnetUpsell variant={bonnetUpsellVariant} />
+          </div>
+        )}
 
         {/* Mid-content AdSlot */}
         <div className="my-12">
